@@ -1,0 +1,234 @@
+{
+ "SearchLocaleUsed": {
+  "Site": "IT",
+  "Language": "en",
+  "Currency": "EUR"
+ },
+ "Product": {
+  "Description": {
+   "ProductDescription": "IC OSC SINGLE TIMER 100KHZ 8-DIP",
+   "DetailedDescription": "555 Type, Timer/Oscillator (Single) IC 100kHz 8-PDIP"
+  },
+  "Manufacturer": {
+   "Id": 296,
+   "Name": "Texas Instruments"
+  },
+  "ManufacturerProductNumber": "NE555P",
+  "UnitPrice": 0.52,
+  "ProductUrl": "https://www.digikey.it/en/products/detail/texas-instruments/NE555P/277057",
+  "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/na555.pdf?ts=1779184670697&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNA555",
+  "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4040082%7EP%7E8.jpg",
+  "ProductVariations": [
+   {
+    "DigiKeyProductNumber": "296-NE555P-ND",
+    "PackageType": {
+     "Id": 6,
+     "Name": "Tube"
+    },
+    "StandardPricing": [
+     {
+      "BreakQuantity": 1,
+      "UnitPrice": 0.52,
+      "TotalPrice": 0.52
+     },
+     {
+      "BreakQuantity": 10,
+      "UnitPrice": 0.367,
+      "TotalPrice": 3.67
+     },
+     {
+      "BreakQuantity": 50,
+      "UnitPrice": 0.305,
+      "TotalPrice": 15.25
+     },
+     {
+      "BreakQuantity": 100,
+      "UnitPrice": 0.2858,
+      "TotalPrice": 28.58
+     },
+     {
+      "BreakQuantity": 250,
+      "UnitPrice": 0.2656,
+      "TotalPrice": 66.4
+     },
+     {
+      "BreakQuantity": 500,
+      "UnitPrice": 0.2534,
+      "TotalPrice": 126.7
+     },
+     {
+      "BreakQuantity": 1000,
+      "UnitPrice": 0.24337,
+      "TotalPrice": 243.37
+     },
+     {
+      "BreakQuantity": 2500,
+      "UnitPrice": 0.2365,
+      "TotalPrice": 591.25
+     }
+    ],
+    "MyPricing": [],
+    "MarketPlace": false,
+    "TariffActive": false,
+    "Supplier": {
+     "Id": 296,
+     "Name": "Texas Instruments"
+    },
+    "QuantityAvailableforPackageType": 49072,
+    "MinimumOrderQuantity": 1,
+    "DigiReelFee": 0.0
+   }
+  ],
+  "QuantityAvailable": 49072,
+  "ProductStatus": {
+   "Id": 0,
+   "Status": "Active"
+  },
+  "BackOrderNotAllowed": false,
+  "NormallyStocking": true,
+  "Discontinued": false,
+  "EndOfLife": false,
+  "Ncnr": false,
+  "PrimaryVideoUrl": "",
+  "Parameters": [
+   {
+    "ParameterId": 183,
+    "ParameterText": "Type",
+    "ParameterType": "String",
+    "ValueId": "243489",
+    "ValueText": "555 Type, Timer/Oscillator (Single)"
+   },
+   {
+    "ParameterId": 435,
+    "ParameterText": "Count",
+    "ParameterType": "String",
+    "ValueId": "1",
+    "ValueText": "-"
+   },
+   {
+    "ParameterId": 139,
+    "ParameterText": "Frequency",
+    "ParameterType": "String",
+    "ValueId": "68724",
+    "ValueText": "100kHz"
+   },
+   {
+    "ParameterId": 276,
+    "ParameterText": "Voltage - Supply",
+    "ParameterType": "String",
+    "ValueId": "208636",
+    "ValueText": "4.5V ~ 16V"
+   },
+   {
+    "ParameterId": 2095,
+    "ParameterText": "Current - Supply",
+    "ParameterType": "UnitOfMeasure",
+    "ValueId": "10 mA",
+    "ValueText": "10 mA"
+   },
+   {
+    "ParameterId": 252,
+    "ParameterText": "Operating Temperature",
+    "ParameterType": "String",
+    "ValueId": "38976",
+    "ValueText": "0°C ~ 70°C"
+   },
+   {
+    "ParameterId": 16,
+    "ParameterText": "Package / Case",
+    "ParameterType": "String",
+    "ValueId": "294032",
+    "ValueText": "8-DIP (0.300\", 7.62mm)"
+   },
+   {
+    "ParameterId": 1291,
+    "ParameterText": "Supplier Device Package",
+    "ParameterType": "String",
+    "ValueId": "294755",
+    "ValueText": "8-PDIP"
+   },
+   {
+    "ParameterId": 69,
+    "ParameterText": "Mounting Type",
+    "ParameterType": "String",
+    "ValueId": "411897",
+    "ValueText": "Through Hole"
+   }
+  ],
+  "BaseProductNumber": {
+   "Id": 6589,
+   "Name": "NE555"
+  },
+  "Category": {
+   "CategoryId": 32,
+   "ParentId": 0,
+   "Name": "Integrated Circuits (ICs)",
+   "ProductCount": 0,
+   "NewProductCount": 0,
+   "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+   "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+   "ChildCategories": [
+    {
+     "CategoryId": 2006,
+     "ParentId": 32,
+     "Name": "Clock/Timing",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+     "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+     "ChildCategories": [
+      {
+       "CategoryId": 689,
+       "ParentId": 2006,
+       "Name": "Programmable Timers and Oscillators",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+       "SeoDescription": "Devices that can be set to provide timing pulses at a specified frequency.",
+       "ChildCategories": []
+      }
+     ]
+    }
+   ]
+  },
+  "ManufacturerLeadWeeks": "12",
+  "ManufacturerPublicQuantity": 0,
+  "Series": {
+   "Id": 818,
+   "Name": "-"
+  },
+  "Classifications": {
+   "ReachStatus": "REACH Unaffected",
+   "RohsStatus": "ROHS3 Compliant",
+   "MoistureSensitivityLevel": "Not Applicable",
+   "ExportControlClassNumber": "EAR99",
+   "HtsusCode": "8542.39.0070"
+  },
+  "OtherNames": [
+   "NE555PG4",
+   "2156-NE555P",
+   "296-49463-1-ND",
+   "-296-1411-5",
+   "-NE555PE4",
+   "296-41585-5-ND",
+   "296-49463-6INACTIVE",
+   "296-49463-1INACTIVE",
+   "-296-1411-5-ND",
+   "296-41585-5",
+   "-NE555PE4-NDR",
+   "296-49463-6",
+   "-NE555P-NDR",
+   "TEXTISNE555P",
+   "296-1411-5",
+   "296-1411",
+   "296-49463-6-ND",
+   "296-49463-1",
+   "NE555PE4-ND",
+   "296-1411-5-ND",
+   "296-NE555P",
+   "NE555PE4"
+  ]
+ },
+ "AccountIdUsed": 0,
+ "CustomerIdUsed": 0
+}

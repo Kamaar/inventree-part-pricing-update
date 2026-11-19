@@ -1,0 +1,241 @@
+{
+ "premierFarnellPartNumberReturn": {
+  "numberOfResults": 1,
+  "products": [
+   {
+    "sku": "2288284",
+    "displayName": "COILCRAFT - MSS1048-822NLC - Induttore di potenza (SMD), 8.2 µH, 5.71 A, schermato, 3.14 A, MSS1048 Series",
+    "productURL": "https://it.farnell.com/coilcraft/mss1048-822nlc/induttore-8-2uh-5-71a-30-pwr-28mhz/dp/2288284",
+    "productStatus": "STOCKED",
+    "rohsStatusCode": "YES",
+    "packSize": 1,
+    "unitOfMeasure": "UNITÀ, FORNITO SU NASTRO TAGLIATO",
+    "unitOfMeasureCode": "EA",
+    "id": "pf_ITE2_2288284_0",
+    "image": {
+     "baseName": "/COILCRAFTMSS1048-40.jpg",
+     "vrntPath": "farnell/",
+     "mainImageURL": "https://it.farnell.com/productimages/standard/en_GB/COILCRAFTMSS1048-40.jpg",
+     "thumbNailImageURL": "https://it.farnell.com/productimages/thumbnail/en_GB/COILCRAFTMSS1048-40.jpg"
+    },
+    "datasheets": [
+     {
+      "type": "T",
+      "description": "Technical Data Sheet (133.00B) EN",
+      "url": "https://4donline.ihs.com/images/VipMasterIC/IC/COLC/COLC-S-A0004853637/COLC-S-A0004853637-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+     }
+    ],
+    "prices": [
+     {
+      "to": 4,
+      "from": 1,
+      "cost": 2.42
+     },
+     {
+      "to": 9,
+      "from": 5,
+      "cost": 2.03
+     },
+     {
+      "to": 24,
+      "from": 10,
+      "cost": 1.66
+     },
+     {
+      "to": 49,
+      "from": 25,
+      "cost": 1.44
+     },
+     {
+      "to": 199,
+      "from": 50,
+      "cost": 1.29
+     },
+     {
+      "to": 999999999,
+      "from": 200,
+      "cost": 1.14
+     }
+    ],
+    "inv": 11,
+    "vendorId": "1002767",
+    "vendorName": "COILCRAFT",
+    "brandLogoURL": "https://it.farnell.com/productimages/promo/en_GB/LOGO_COILCRAFT.jpg",
+    "brandName": "COILCRAFT",
+    "translatedManufacturerPartNumber": "MSS1048-822NLC",
+    "translatedMinimumOrderQuality": 1,
+    "attributes": [
+     {
+      "attributeLabel": "tariffCode",
+      "attributeValue": "85045000"
+     },
+     {
+      "attributeLabel": "euEccn",
+      "attributeValue": "NLR"
+     },
+     {
+      "attributeLabel": "Gamma di prodotti",
+      "attributeValue": "MSS1048 Series"
+     },
+     {
+      "attributeLabel": "rohsCompliant",
+      "attributeValue": "YES"
+     },
+     {
+      "attributeLabel": "Lunghezza Prodotto",
+      "attributeUnit": "mm",
+      "attributeValue": "10.2"
+     },
+     {
+      "attributeLabel": "hazardous",
+      "attributeValue": "false"
+     },
+     {
+      "attributeLabel": "rohsPhthalatesCompliant",
+      "attributeValue": "YES"
+     },
+     {
+      "attributeLabel": "Incapsulamento/package dell'induttore",
+      "attributeValue": "-"
+     },
+     {
+      "attributeLabel": "isCanonical",
+      "attributeValue": "Y"
+     },
+     {
+      "attributeLabel": "Tolleranza Induttanza",
+      "attributeValue": "± 30%"
+     },
+     {
+      "attributeLabel": "Larghezza Prodotto",
+      "attributeUnit": "mm",
+      "attributeValue": "10"
+     },
+     {
+      "attributeLabel": "Induttanza",
+      "attributeUnit": "µH",
+      "attributeValue": "8.2"
+     },
+     {
+      "attributeLabel": "Corrente di Saturazione (Isat)",
+      "attributeUnit": "A",
+      "attributeValue": "3.14"
+     },
+     {
+      "attributeLabel": "Corrente RMS (Irms)",
+      "attributeUnit": "A",
+      "attributeValue": "5.71"
+     },
+     {
+      "attributeLabel": "Altezza Prodotto",
+      "attributeUnit": "mm",
+      "attributeValue": "4.8"
+     },
+     {
+      "attributeLabel": "productTraceability",
+      "attributeValue": "Yes-Date/Lot Code"
+     },
+     {
+      "attributeLabel": "usEccn",
+      "attributeValue": "EAR99"
+     },
+     {
+      "attributeLabel": "Sostanze estremamente preoccupanti (SVHC)",
+      "attributeValue": "No SVHC (25-Jun-2025)"
+     },
+     {
+      "attributeLabel": "Struttura Induttore",
+      "attributeValue": "schermato"
+     },
+     {
+      "attributeLabel": "Resistenza CC Max",
+      "attributeUnit": "ohm",
+      "attributeValue": "0.02"
+     },
+     {
+      "attributeLabel": "Involucro Induttore di Potenza",
+      "attributeValue": "10,2mm x 10mm x 4,8mm"
+     },
+     {
+      "attributeLabel": "SVHC",
+      "attributeValue": "No SVHC (25-Jun-2025)"
+     }
+    ],
+    "related": {
+     "containAlternatives": false,
+     "containcontainRoHSAlternatives": false,
+     "containAccessories": true,
+     "containcontainRoHSAccessories": true,
+     "packagingOptions": [
+      {
+       "type": "TC",
+       "sku": "2288284RL"
+      }
+     ]
+    },
+    "stock": {
+     "level": 11,
+     "leastLeadTime": 106,
+     "status": 1,
+     "shipsFromMultipleWarehouses": false,
+     "breakdown": [
+      {
+       "inv": 11,
+       "region": "UK",
+       "lead": 106,
+       "warehouse": "UK1"
+      },
+      {
+       "inv": 0,
+       "region": "UK",
+       "lead": 106,
+       "warehouse": "GB1"
+      },
+      {
+       "inv": 0,
+       "region": "-",
+       "lead": 106,
+       "warehouse": "PE1"
+      }
+     ],
+     "regionalBreakdown": [
+      {
+       "level": 11,
+       "leastLeadTime": 106,
+       "status": 1,
+       "warehouse": "UK",
+       "shipsFromMultipleWarehouses": true
+      },
+      {
+       "level": 0,
+       "leastLeadTime": 106,
+       "status": 1,
+       "warehouse": "-",
+       "shipsFromMultipleWarehouses": false
+      }
+     ],
+     "expectedStock": [
+      {
+       "level": "400",
+       "date": "2027-02-07"
+      }
+     ]
+    },
+    "countryOfOrigin": "VN",
+    "comingSoon": false,
+    "inventoryCode": 5,
+    "nationalClassCode": null,
+    "publishingModule": null,
+    "vatHandlingCode": "S2",
+    "releaseStatusCode": 4,
+    "isSpecialOrder": false,
+    "isAwaitingRelease": false,
+    "reeling": false,
+    "discountReason": 30,
+    "brandId": "1002767",
+    "orderMultiples": "1",
+    "packageName": "Nastro pretagliato"
+   }
+  ]
+ }
+}

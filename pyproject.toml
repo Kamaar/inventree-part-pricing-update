@@ -1,0 +1,57 @@
+# Packaging for the PartPricingUpdate InvenTree plugin.
+# Structure follows the InvenTree plugin-creator template:
+# https://github.com/inventree/plugin-creator
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inventree-part-pricing-update"
+description = "Aggiorna automaticamente i prezzi dei SupplierPart da Mouser, DigiKey e Farnell e ne conserva lo storico"
+dynamic = ["version"]
+authors = [
+    { name = "Simone Amadori", email = "simone@amadori.bs.it" },
+]
+readme = "README.md"
+license = "MIT"
+keywords = ["inventree", "plugin", "pricing", "mouser", "digikey", "farnell"]
+requires-python = ">=3.10"
+dependencies = [
+    # 'requests' and 'django-money' are already provided by InvenTree
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Framework :: InvenTree",
+]
+
+[project.entry-points."inventree_plugins"]
+PartPricingUpdate = "part_pricing_update.core:PartPricingUpdate"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "requests>=2.31",
+    "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["part_pricing_update*"]
+
+[tool.setuptools.package-data]
+part_pricing_update = ["static/**/*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "part_pricing_update.PLUGIN_VERSION" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+src = ["part_pricing_update"]
+exclude = [".git", "__pycache__", ".venv", "frontend", "build", "dist"]
+
+[tool.ruff.lint]
+ignore = ["I001", "PIE790", "RUF012"]

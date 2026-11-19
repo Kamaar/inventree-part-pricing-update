@@ -1,0 +1,405 @@
+{
+ "Errors": [],
+ "SearchResults": {
+  "NumberOfResult": 9,
+  "Parts": [
+   {
+    "Availability": "67822 In Stock",
+    "DataSheetUrl": "",
+    "Description": "Timers & Support Products Precision",
+    "FactoryStock": "0",
+    "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_PDIP-8_P_t.jpg",
+    "Category": "Timers & Support Products",
+    "LeadTime": "182 Days",
+    "LifecycleStatus": null,
+    "Manufacturer": "Texas Instruments",
+    "ManufacturerPartNumber": "NE555P",
+    "Min": "1",
+    "Mult": "1",
+    "MouserPartNumber": "595-NE555P",
+    "ProductAttributes": [
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Tube"
+     },
+     {
+      "AttributeName": "Standard Pack Qty",
+      "AttributeValue": "50"
+     }
+    ],
+    "PriceBreaks": [
+     {
+      "Quantity": 1,
+      "Price": "0,507 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 10,
+      "Price": "0,353 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 50,
+      "Price": "0,295 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 100,
+      "Price": "0,273 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 250,
+      "Price": "0,254 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 500,
+      "Price": "0,242 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 1000,
+      "Price": "0,232 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 2500,
+      "Price": "0,224 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 5000,
+      "Price": "0,22 €",
+      "Currency": "EUR"
+     }
+    ],
+    "AlternatePackagings": null,
+    "ProductDetailUrl": "https://www.mouser.it/en/ProductDetail/Texas-Instruments/NE555P?qs=rkhjVJ6%2F3EIf4CWgjIKuKQ%3D%3D",
+    "Reeling": false,
+    "ROHSStatus": "RoHS Compliant",
+    "SuggestedReplacement": "",
+    "MultiSimBlue": 0,
+    "UnitWeightKg": {
+     "UnitWeight": 0.0004404
+    },
+    "AvailabilityInStock": "67822",
+    "AvailabilityOnOrder": [
+     {
+      "Quantity": 5000,
+      "Date": "2027-01-28T00:00:00"
+     }
+    ],
+    "InfoMessages": [],
+    "SurchargeMessages": null,
+    "ProductCompliance": [
+     {
+      "ComplianceName": "TARIC",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CNHTS",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CAHTS",
+      "ComplianceValue": "8542390000"
+     },
+     {
+      "ComplianceName": "USHTS",
+      "ComplianceValue": "8542390090"
+     },
+     {
+      "ComplianceName": "JPHTS",
+      "ComplianceValue": "8542390990"
+     },
+     {
+      "ComplianceName": "MXHTS",
+      "ComplianceValue": "8542399999"
+     },
+     {
+      "ComplianceName": "ECCN",
+      "ComplianceValue": "EAR99"
+     }
+    ],
+    "TradeCompliance": [
+     {
+      "ComplianceName": "Country of Origin",
+      "ComplianceValue": "Mexico",
+      "ComplianceDescription": "The country in which a product was manufactured, produced or substantially transformed."
+     },
+     {
+      "ComplianceName": "Assembly Country of Origin",
+      "ComplianceValue": "Mexico",
+      "ComplianceDescription": "The country in which the final product is physically assembled from its components."
+     },
+     {
+      "ComplianceName": "Country of Diffusion",
+      "ComplianceValue": "United States",
+      "ComplianceDescription": "The country in which the wafer used in a semiconductor was made."
+     }
+    ]
+   },
+   {
+    "Availability": "540 In Stock",
+    "DataSheetUrl": "",
+    "Description": "Timers & Support Products Precision ALT 595-NE 555P ALT 595-NE555P ALT 595-NE555P",
+    "FactoryStock": "0",
+    "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_PDIP-8_P_t.jpg",
+    "Category": "Timers & Support Products",
+    "LeadTime": "182 Days",
+    "LifecycleStatus": null,
+    "Manufacturer": "Texas Instruments",
+    "ManufacturerPartNumber": "NE555PE4",
+    "Min": "1",
+    "Mult": "1",
+    "MouserPartNumber": "595-NE555PE4",
+    "ProductAttributes": [
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Tube"
+     },
+     {
+      "AttributeName": "Standard Pack Qty",
+      "AttributeValue": "50"
+     }
+    ],
+    "PriceBreaks": [
+     {
+      "Quantity": 1,
+      "Price": "0,55 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 10,
+      "Price": "0,402 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 50,
+      "Price": "0,341 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 100,
+      "Price": "0,297 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 250,
+      "Price": "0,275 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 500,
+      "Price": "0,262 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 1000,
+      "Price": "0,252 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 2500,
+      "Price": "0,245 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 5000,
+      "Price": "0,242 €",
+      "Currency": "EUR"
+     }
+    ],
+    "AlternatePackagings": null,
+    "ProductDetailUrl": "https://www.mouser.it/en/ProductDetail/Texas-Instruments/NE555PE4?qs=rLYyFdxB%2FmpV6UJXAtWXuA%3D%3D",
+    "Reeling": false,
+    "ROHSStatus": "RoHS Compliant",
+    "SuggestedReplacement": "595-NE555P",
+    "MultiSimBlue": 0,
+    "UnitWeightKg": {
+     "UnitWeight": 0.0004404
+    },
+    "AvailabilityInStock": "540",
+    "AvailabilityOnOrder": [
+     {
+      "Quantity": 3000,
+      "Date": "2027-05-17T00:00:00"
+     }
+    ],
+    "InfoMessages": [],
+    "SurchargeMessages": null,
+    "ProductCompliance": [
+     {
+      "ComplianceName": "TARIC",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CNHTS",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CAHTS",
+      "ComplianceValue": "8542390000"
+     },
+     {
+      "ComplianceName": "USHTS",
+      "ComplianceValue": "8542390090"
+     },
+     {
+      "ComplianceName": "JPHTS",
+      "ComplianceValue": "8542390990"
+     },
+     {
+      "ComplianceName": "MXHTS",
+      "ComplianceValue": "8542399999"
+     },
+     {
+      "ComplianceName": "ECCN",
+      "ComplianceValue": "EAR99"
+     }
+    ],
+    "TradeCompliance": [
+     {
+      "ComplianceName": "Country of Origin",
+      "ComplianceValue": "Mexico",
+      "ComplianceDescription": "The country in which a product was manufactured, produced or substantially transformed."
+     },
+     {
+      "ComplianceName": "Assembly Country of Origin",
+      "ComplianceValue": "Mexico",
+      "ComplianceDescription": "The country in which the final product is physically assembled from its components."
+     },
+     {
+      "ComplianceName": "Country of Diffusion",
+      "ComplianceValue": "United States",
+      "ComplianceDescription": "The country in which the wafer used in a semiconductor was made."
+     }
+    ]
+   },
+   {
+    "Availability": "7300 In Stock",
+    "DataSheetUrl": "",
+    "Description": "Timers & Support Products Precision A 595-NE55 5PSRG4 A 595-NE555P A 595-NE555PSRG4",
+    "FactoryStock": "0",
+    "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_SO-8_PS_t.jpg",
+    "Category": "Timers & Support Products",
+    "LeadTime": "182 Days",
+    "LifecycleStatus": null,
+    "Manufacturer": "Texas Instruments",
+    "ManufacturerPartNumber": "NE555PSR",
+    "Min": "1",
+    "Mult": "1",
+    "MouserPartNumber": "595-NE555PSR",
+    "ProductAttributes": [
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Reel"
+     },
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Cut Tape"
+     },
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "MouseReel",
+      "AttributeCost": "A MouseReel™ fee of 5,00 € will be added and calculated in your basket. All MouseReel™ orders are non-cancellable and non-returnable."
+     },
+     {
+      "AttributeName": "Standard Pack Qty",
+      "AttributeValue": "2000"
+     }
+    ],
+    "PriceBreaks": [
+     {
+      "Quantity": 1,
+      "Price": "0,361 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 10,
+      "Price": "0,353 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 100,
+      "Price": "0,345 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 2000,
+      "Price": "0,345 €",
+      "Currency": "EUR"
+     }
+    ],
+    "AlternatePackagings": [
+     {
+      "APMfrPN": "NE555PS"
+     },
+     {
+      "APMfrPN": " NE555PSRG4"
+     }
+    ],
+    "ProductDetailUrl": "https://www.mouser.it/en/ProductDetail/Texas-Instruments/NE555PSR?qs=gb35HGp1gQIkDLbDNL%252B5gQ%3D%3D",
+    "Reeling": true,
+    "ROHSStatus": "RoHS Compliant",
+    "SuggestedReplacement": "",
+    "MultiSimBlue": 0,
+    "UnitWeightKg": {
+     "UnitWeight": 0.0001226
+    },
+    "AvailabilityInStock": "7300",
+    "AvailabilityOnOrder": [],
+    "InfoMessages": [],
+    "SurchargeMessages": null,
+    "ProductCompliance": [
+     {
+      "ComplianceName": "TARIC",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CNHTS",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CAHTS",
+      "ComplianceValue": "8542390000"
+     },
+     {
+      "ComplianceName": "USHTS",
+      "ComplianceValue": "8542390090"
+     },
+     {
+      "ComplianceName": "JPHTS",
+      "ComplianceValue": "8542390990"
+     },
+     {
+      "ComplianceName": "MXHTS",
+      "ComplianceValue": "8542399999"
+     },
+     {
+      "ComplianceName": "ECCN",
+      "ComplianceValue": "EAR99"
+     }
+    ],
+    "TradeCompliance": [
+     {
+      "ComplianceName": "Country of Origin",
+      "ComplianceValue": "Malaysia",
+      "ComplianceDescription": "The country in which a product was manufactured, produced or substantially transformed."
+     },
+     {
+      "ComplianceName": "Assembly Country of Origin",
+      "ComplianceValue": "Malaysia",
+      "ComplianceDescription": "The country in which the final product is physically assembled from its components."
+     },
+     {
+      "ComplianceName": "Country of Diffusion",
+      "ComplianceValue": "United States",
+      "ComplianceDescription": "The country in which the wafer used in a semiconductor was made."
+     }
+    ]
+   }
+  ]
+ }
+}

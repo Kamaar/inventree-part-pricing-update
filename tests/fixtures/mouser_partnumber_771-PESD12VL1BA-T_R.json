@@ -1,0 +1,115 @@
+{
+ "Errors": [],
+ "SearchResults": {
+  "NumberOfResult": 1,
+  "Parts": [
+   {
+    "DataSheetUrl": "",
+    "Description": "ESD Protection Diodes / TVS Diodes The factory is currently not accepting orders for this product.",
+    "FactoryStock": null,
+    "ImagePath": "https://www.mouser.com/images/nexperia/images/Nexperia_SOD323_SOD323-2-2_SPL.jpg",
+    "Category": "ESD Protection Diodes / TVS Diodes",
+    "LeadTime": "365 Days",
+    "LifecycleStatus": null,
+    "Manufacturer": "Nexperia",
+    "ManufacturerPartNumber": "PESD12VL1BA,115",
+    "Min": "1",
+    "Mult": "1",
+    "MouserPartNumber": "771-PESD12VL1BA-T/R",
+    "ProductAttributes": [
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Reel"
+     },
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Cut Tape"
+     },
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "MouseReel",
+      "AttributeCost": "A MouseReel\u2122 fee of 5,00 \u20ac will be added and calculated in your basket. All MouseReel\u2122 orders are non-cancellable and non-returnable."
+     },
+     {
+      "AttributeName": "Standard Pack Qty",
+      "AttributeValue": "3000"
+     }
+    ],
+    "PriceBreaks": [],
+    "AlternatePackagings": [
+     {
+      "APMfrPN": "PESD12VL1BAF"
+     }
+    ],
+    "ProductDetailUrl": "https://www.mouser.it/en/ProductDetail/Nexperia/PESD12VL1BA115?qs=LOCUfHb8d9tizc9iojOZUw%3D%3D",
+    "Reeling": true,
+    "ROHSStatus": "RoHS Compliant",
+    "SuggestedReplacement": "",
+    "MultiSimBlue": 0,
+    "UnitWeightKg": {
+     "UnitWeight": 4.1e-06
+    },
+    "AvailabilityInStock": null,
+    "AvailabilityOnOrder": [],
+    "InfoMessages": [],
+    "SurchargeMessages": null,
+    "RestrictionMessage": "Mouser does not presently sell this product in your region.",
+    "ProductCompliance": [
+     {
+      "ComplianceName": "TARIC",
+      "ComplianceValue": "8541100000"
+     },
+     {
+      "ComplianceName": "CNHTS",
+      "ComplianceValue": "8541590000"
+     },
+     {
+      "ComplianceName": "CAHTS",
+      "ComplianceValue": "8541100090"
+     },
+     {
+      "ComplianceName": "USHTS",
+      "ComplianceValue": "8541100080"
+     },
+     {
+      "ComplianceName": "JPHTS",
+      "ComplianceValue": "854110090"
+     },
+     {
+      "ComplianceName": "KRHTS",
+      "ComplianceValue": "8541109000"
+     },
+     {
+      "ComplianceName": "MXHTS",
+      "ComplianceValue": "8541100199"
+     },
+     {
+      "ComplianceName": "BRHTS",
+      "ComplianceValue": "85411029"
+     },
+     {
+      "ComplianceName": "ECCN",
+      "ComplianceValue": "EAR99"
+     }
+    ],
+    "TradeCompliance": [
+     {
+      "ComplianceName": "Country of Origin",
+      "ComplianceValue": "Malaysia",
+      "ComplianceDescription": "The country in which a product was manufactured, produced or substantially transformed."
+     },
+     {
+      "ComplianceName": "Assembly Country of Origin",
+      "ComplianceValue": "Not available",
+      "ComplianceDescription": "The country in which the final product is physically assembled from its components."
+     },
+     {
+      "ComplianceName": "Country of Diffusion",
+      "ComplianceValue": "Not available",
+      "ComplianceDescription": "The country in which the wafer used in a semiconductor was made."
+     }
+    ]
+   }
+  ]
+ }
+}

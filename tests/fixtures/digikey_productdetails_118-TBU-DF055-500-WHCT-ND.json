@@ -1,0 +1,196 @@
+{
+ "SearchLocaleUsed": {
+  "Site": "IT",
+  "Language": "en",
+  "Currency": "EUR"
+ },
+ "Product": {
+  "Description": {
+   "ProductDescription": "DUAL BI-DIR TBU 550V 500MA",
+   "DetailedDescription": "Overvoltage/Surge Protection IC 550V Internal Switch 6-DFN (6.5x5.5)"
+  },
+  "Manufacturer": {
+   "Id": 118,
+   "Name": "Bourns Inc."
+  },
+  "ManufacturerProductNumber": "TBU-DF055-500-WH",
+  "UnitPrice": 1.43541,
+  "ProductUrl": "https://www.digikey.it/en/products/detail/bourns-inc/TBU-DF055-500-WH/9693044",
+  "DatasheetUrl": "https://www.bourns.com/docs/Product-Datasheets/tbu-df.pdf",
+  "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/118%7E6DFN-1.05-6.5X5.5%7EH%7E6.jpg",
+  "ProductVariations": [
+   {
+    "DigiKeyProductNumber": "118-TBU-DF055-500-WHTR-ND",
+    "PackageType": {
+     "Id": 1,
+     "Name": "Tape & Reel (TR)"
+    },
+    "StandardPricing": [
+     {
+      "BreakQuantity": 6000,
+      "UnitPrice": 1.43541,
+      "TotalPrice": 8612.46
+     }
+    ],
+    "MyPricing": [],
+    "MarketPlace": false,
+    "TariffActive": true,
+    "Supplier": {
+     "Id": 118,
+     "Name": "Bourns Inc."
+    },
+    "QuantityAvailableforPackageType": 0,
+    "MaxQuantityForDistribution": 999999999,
+    "MinimumOrderQuantity": 6000,
+    "StandardPackage": 3000,
+    "DigiReelFee": 0.0
+   },
+   {
+    "DigiKeyProductNumber": "118-TBU-DF055-500-WHCT-ND",
+    "PackageType": {
+     "Id": 2,
+     "Name": "Cut Tape (CT)"
+    },
+    "StandardPricing": [],
+    "MyPricing": [],
+    "MarketPlace": false,
+    "TariffActive": true,
+    "Supplier": {
+     "Id": 118,
+     "Name": "Bourns Inc."
+    },
+    "QuantityAvailableforPackageType": 0,
+    "MaxQuantityForDistribution": 999999999,
+    "StandardPackage": 1,
+    "DigiReelFee": 0.0
+   },
+   {
+    "DigiKeyProductNumber": "118-TBU-DF055-500-WHDKR-ND",
+    "PackageType": {
+     "Id": 243,
+     "Name": "Digi-Reel\u00ae"
+    },
+    "StandardPricing": [],
+    "MyPricing": [],
+    "MarketPlace": false,
+    "TariffActive": true,
+    "Supplier": {
+     "Id": 118,
+     "Name": "Bourns Inc."
+    },
+    "QuantityAvailableforPackageType": 0,
+    "MaxQuantityForDistribution": 999999999,
+    "StandardPackage": 1,
+    "DigiReelFee": 5.5
+   }
+  ],
+  "ProductStatus": {
+   "Id": 0,
+   "Status": "Active"
+  },
+  "BackOrderNotAllowed": false,
+  "NormallyStocking": false,
+  "Discontinued": false,
+  "EndOfLife": false,
+  "Ncnr": false,
+  "PrimaryVideoUrl": "",
+  "Parameters": [
+   {
+    "ParameterId": 662,
+    "ParameterText": "Voltage - Clamping",
+    "ParameterType": "String",
+    "ValueId": "243359",
+    "ValueText": "550V"
+   },
+   {
+    "ParameterId": 570,
+    "ParameterText": "Technology",
+    "ParameterType": "String",
+    "ValueId": "359728",
+    "ValueText": "Internal Switch"
+   },
+   {
+    "ParameterId": 2094,
+    "ParameterText": "Number of Circuits",
+    "ParameterType": "Double",
+    "ValueId": "2",
+    "ValueText": "2"
+   },
+   {
+    "ParameterId": 405,
+    "ParameterText": "Applications",
+    "ParameterType": "String",
+    "ValueId": "350483",
+    "ValueText": "General Purpose"
+   },
+   {
+    "ParameterId": 69,
+    "ParameterText": "Mounting Type",
+    "ParameterType": "String",
+    "ValueId": "409393",
+    "ValueText": "Surface Mount"
+   },
+   {
+    "ParameterId": 16,
+    "ParameterText": "Package / Case",
+    "ParameterType": "String",
+    "ValueId": "267336",
+    "ValueText": "6-TDFN"
+   },
+   {
+    "ParameterId": 1291,
+    "ParameterText": "Supplier Device Package",
+    "ParameterType": "String",
+    "ValueId": "266554",
+    "ValueText": "6-DFN (6.5x5.5)"
+   }
+  ],
+  "BaseProductNumber": {
+   "Id": 121877,
+   "Name": "TBU-DF055"
+  },
+  "Category": {
+   "CategoryId": 9,
+   "ParentId": 0,
+   "Name": "Circuit Protection",
+   "ProductCount": 0,
+   "NewProductCount": 0,
+   "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+   "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+   "ChildCategories": [
+    {
+     "CategoryId": 152,
+     "ParentId": 9,
+     "Name": "Surge Suppression ICs",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/216/876/MFG_TBU-CA_tmb.jpg",
+     "SeoDescription": "Surge Suppression ICs are designed to keep electrical devices safe from excess voltage and/or current. Components in this family are designed using semiconductor materials. The characteristics are clamping voltage, technology, number of circuits, applications, and mounting type. The technologies are external or internal switch with the number of circuits being 1, 2, 3, or 4. Target applications are automotive, Ethernet, general purpose, portable equipment, SLIC, USB, USB OTG, and others.",
+     "ChildCategories": []
+    }
+   ]
+  },
+  "ManufacturerLeadWeeks": "20",
+  "ManufacturerPublicQuantity": 0,
+  "Series": {
+   "Id": 26884,
+   "Name": "TBU\u00ae"
+  },
+  "Classifications": {
+   "ReachStatus": "REACH Unaffected",
+   "RohsStatus": "ROHS3 Compliant",
+   "MoistureSensitivityLevel": "1  (Unlimited)",
+   "ExportControlClassNumber": "EAR99",
+   "HtsusCode": "8536.30.8000"
+  },
+  "OtherNames": [
+   "2266-TBU-DF055-500-WHTR",
+   "118-TBU-DF055-500-WHDKR",
+   "118-TBU-DF055-500-WHTR",
+   "118-TBU-DF055-500-WHCT",
+   "TBU-DF055-500-WH-ND"
+  ]
+ },
+ "AccountIdUsed": 0,
+ "CustomerIdUsed": 0
+}

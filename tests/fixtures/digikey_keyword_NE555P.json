@@ -1,0 +1,1215 @@
+{
+ "Products": [
+  {
+   "Description": {
+    "ProductDescription": "IC OSC SINGLE TIMER 100KHZ 8-DIP",
+    "DetailedDescription": "555 Type, Timer/Oscillator (Single) IC 100kHz 8-PDIP"
+   },
+   "Manufacturer": {
+    "Id": 296,
+    "Name": "Texas Instruments"
+   },
+   "ManufacturerProductNumber": "NE555P",
+   "UnitPrice": 0.52,
+   "ProductUrl": "https://www.digikey.it/en/products/detail/texas-instruments/NE555P/277057",
+   "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/na555.pdf?ts=1779184670697&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNA555",
+   "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4040082%7EP%7E8.jpg",
+   "ProductVariations": [
+    {
+     "DigiKeyProductNumber": "296-NE555P-ND",
+     "PackageType": {
+      "Id": 6,
+      "Name": "Tube"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.52,
+       "TotalPrice": 0.52
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.367,
+       "TotalPrice": 3.67
+      },
+      {
+       "BreakQuantity": 50,
+       "UnitPrice": 0.305,
+       "TotalPrice": 15.25
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.2858,
+       "TotalPrice": 28.58
+      },
+      {
+       "BreakQuantity": 250,
+       "UnitPrice": 0.2656,
+       "TotalPrice": 66.4
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.2534,
+       "TotalPrice": 126.7
+      },
+      {
+       "BreakQuantity": 1000,
+       "UnitPrice": 0.24337,
+       "TotalPrice": 243.37
+      },
+      {
+       "BreakQuantity": 2500,
+       "UnitPrice": 0.2365,
+       "TotalPrice": 591.25
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 49072,
+     "MinimumOrderQuantity": 1,
+     "DigiReelFee": 0.0
+    }
+   ],
+   "QuantityAvailable": 49072,
+   "ProductStatus": {
+    "Id": 0,
+    "Status": "Active"
+   },
+   "BackOrderNotAllowed": false,
+   "NormallyStocking": true,
+   "Discontinued": false,
+   "EndOfLife": false,
+   "Ncnr": false,
+   "PrimaryVideoUrl": "",
+   "Parameters": [
+    {
+     "ParameterId": 183,
+     "ParameterText": "Type",
+     "ParameterType": "String",
+     "ValueId": "243489",
+     "ValueText": "555 Type, Timer/Oscillator (Single)"
+    },
+    {
+     "ParameterId": 435,
+     "ParameterText": "Count",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 139,
+     "ParameterText": "Frequency",
+     "ParameterType": "String",
+     "ValueId": "68724",
+     "ValueText": "100kHz"
+    },
+    {
+     "ParameterId": 276,
+     "ParameterText": "Voltage - Supply",
+     "ParameterType": "String",
+     "ValueId": "208636",
+     "ValueText": "4.5V ~ 16V"
+    },
+    {
+     "ParameterId": 2095,
+     "ParameterText": "Current - Supply",
+     "ParameterType": "UnitOfMeasure",
+     "ValueId": "10 mA",
+     "ValueText": "10 mA"
+    },
+    {
+     "ParameterId": 252,
+     "ParameterText": "Operating Temperature",
+     "ParameterType": "String",
+     "ValueId": "38976",
+     "ValueText": "0°C ~ 70°C"
+    },
+    {
+     "ParameterId": 16,
+     "ParameterText": "Package / Case",
+     "ParameterType": "String",
+     "ValueId": "294032",
+     "ValueText": "8-DIP (0.300\", 7.62mm)"
+    },
+    {
+     "ParameterId": 1291,
+     "ParameterText": "Supplier Device Package",
+     "ParameterType": "String",
+     "ValueId": "294755",
+     "ValueText": "8-PDIP"
+    },
+    {
+     "ParameterId": 69,
+     "ParameterText": "Mounting Type",
+     "ParameterType": "String",
+     "ValueId": "411897",
+     "ValueText": "Through Hole"
+    }
+   ],
+   "BaseProductNumber": {
+    "Id": 6589,
+    "Name": "NE555"
+   },
+   "Category": {
+    "CategoryId": 32,
+    "ParentId": 0,
+    "Name": "Integrated Circuits (ICs)",
+    "ProductCount": 0,
+    "NewProductCount": 0,
+    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+    "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+    "ChildCategories": [
+     {
+      "CategoryId": 2006,
+      "ParentId": 32,
+      "Name": "Clock/Timing",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+      "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+      "ChildCategories": [
+       {
+        "CategoryId": 689,
+        "ParentId": 2006,
+        "Name": "Programmable Timers and Oscillators",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Devices that can be set to provide timing pulses at a specified frequency.",
+        "ChildCategories": []
+       }
+      ]
+     }
+    ]
+   },
+   "ManufacturerLeadWeeks": "12",
+   "ManufacturerPublicQuantity": 0,
+   "Series": {
+    "Id": 818,
+    "Name": "-"
+   },
+   "Classifications": {
+    "ReachStatus": "REACH Unaffected",
+    "RohsStatus": "ROHS3 Compliant",
+    "MoistureSensitivityLevel": "Not Applicable",
+    "ExportControlClassNumber": "EAR99",
+    "HtsusCode": "8542.39.0070"
+   },
+   "OtherNames": [
+    "NE555PG4",
+    "2156-NE555P",
+    "296-49463-1-ND",
+    "-296-1411-5",
+    "-NE555PE4",
+    "296-41585-5-ND",
+    "296-49463-6INACTIVE",
+    "296-49463-1INACTIVE",
+    "-296-1411-5-ND",
+    "296-41585-5",
+    "-NE555PE4-NDR",
+    "296-49463-6",
+    "-NE555P-NDR",
+    "TEXTISNE555P",
+    "296-1411-5",
+    "296-1411",
+    "296-49463-6-ND",
+    "296-49463-1",
+    "NE555PE4-ND",
+    "296-1411-5-ND",
+    "296-NE555P",
+    "NE555PE4"
+   ]
+  },
+  {
+   "Description": {
+    "ProductDescription": "IC OSC SNGL TIMER 100KHZ 8-TSSOP",
+    "DetailedDescription": "555 Type, Timer/Oscillator (Single) IC 100kHz 8-TSSOP"
+   },
+   "Manufacturer": {
+    "Id": 296,
+    "Name": "Texas Instruments"
+   },
+   "ManufacturerProductNumber": "NE555PWR",
+   "UnitPrice": 0.27,
+   "ProductUrl": "https://www.digikey.it/en/products/detail/texas-instruments/NE555PWR/1571970",
+   "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/na555.pdf?ts=1779184670697&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNA555",
+   "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3985/296%7E4221848%7EPW%7E8.JPG",
+   "ProductVariations": [
+    {
+     "DigiKeyProductNumber": "296-29904-2-ND",
+     "PackageType": {
+      "Id": 1,
+      "Name": "Tape & Reel (TR)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 2000,
+       "UnitPrice": 0.11037,
+       "TotalPrice": 220.74
+      },
+      {
+       "BreakQuantity": 4000,
+       "UnitPrice": 0.10674,
+       "TotalPrice": 426.96
+      },
+      {
+       "BreakQuantity": 6000,
+       "UnitPrice": 0.10491,
+       "TotalPrice": 629.46
+      },
+      {
+       "BreakQuantity": 10000,
+       "UnitPrice": 0.1029,
+       "TotalPrice": 1029.0
+      },
+      {
+       "BreakQuantity": 14000,
+       "UnitPrice": 0.10172,
+       "TotalPrice": 1424.08
+      },
+      {
+       "BreakQuantity": 20000,
+       "UnitPrice": 0.10058,
+       "TotalPrice": 2011.6
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 2000,
+     "MinimumOrderQuantity": 2000,
+     "DigiReelFee": 0.0
+    },
+    {
+     "DigiKeyProductNumber": "296-29904-1-ND",
+     "PackageType": {
+      "Id": 2,
+      "Name": "Cut Tape (CT)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.27,
+       "TotalPrice": 0.27
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.181,
+       "TotalPrice": 1.81
+      },
+      {
+       "BreakQuantity": 25,
+       "UnitPrice": 0.16,
+       "TotalPrice": 4.0
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.1375,
+       "TotalPrice": 13.75
+      },
+      {
+       "BreakQuantity": 250,
+       "UnitPrice": 0.12664,
+       "TotalPrice": 31.66
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.12016,
+       "TotalPrice": 60.08
+      },
+      {
+       "BreakQuantity": 1000,
+       "UnitPrice": 0.11479,
+       "TotalPrice": 114.79
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 2422,
+     "MinimumOrderQuantity": 1,
+     "DigiReelFee": 0.0
+    },
+    {
+     "DigiKeyProductNumber": "296-29904-6-ND",
+     "PackageType": {
+      "Id": 243,
+      "Name": "Digi-Reel®"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.27,
+       "TotalPrice": 0.27
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.181,
+       "TotalPrice": 1.81
+      },
+      {
+       "BreakQuantity": 25,
+       "UnitPrice": 0.16,
+       "TotalPrice": 4.0
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.1375,
+       "TotalPrice": 13.75
+      },
+      {
+       "BreakQuantity": 250,
+       "UnitPrice": 0.12664,
+       "TotalPrice": 31.66
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.12016,
+       "TotalPrice": 60.08
+      },
+      {
+       "BreakQuantity": 1000,
+       "UnitPrice": 0.11479,
+       "TotalPrice": 114.79
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 2422,
+     "MinimumOrderQuantity": 1,
+     "DigiReelFee": 5.5
+    }
+   ],
+   "QuantityAvailable": 2422,
+   "ProductStatus": {
+    "Id": 0,
+    "Status": "Active"
+   },
+   "BackOrderNotAllowed": false,
+   "NormallyStocking": true,
+   "Discontinued": false,
+   "EndOfLife": false,
+   "Ncnr": false,
+   "PrimaryVideoUrl": "",
+   "Parameters": [
+    {
+     "ParameterId": 183,
+     "ParameterText": "Type",
+     "ParameterType": "String",
+     "ValueId": "243489",
+     "ValueText": "555 Type, Timer/Oscillator (Single)"
+    },
+    {
+     "ParameterId": 435,
+     "ParameterText": "Count",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 139,
+     "ParameterText": "Frequency",
+     "ParameterType": "String",
+     "ValueId": "68724",
+     "ValueText": "100kHz"
+    },
+    {
+     "ParameterId": 276,
+     "ParameterText": "Voltage - Supply",
+     "ParameterType": "String",
+     "ValueId": "208636",
+     "ValueText": "4.5V ~ 16V"
+    },
+    {
+     "ParameterId": 2095,
+     "ParameterText": "Current - Supply",
+     "ParameterType": "UnitOfMeasure",
+     "ValueId": "10 mA",
+     "ValueText": "10 mA"
+    },
+    {
+     "ParameterId": 252,
+     "ParameterText": "Operating Temperature",
+     "ParameterType": "String",
+     "ValueId": "38976",
+     "ValueText": "0°C ~ 70°C"
+    },
+    {
+     "ParameterId": 16,
+     "ParameterText": "Package / Case",
+     "ParameterType": "String",
+     "ValueId": "295059",
+     "ValueText": "8-TSSOP (0.173\", 4.40mm Width)"
+    },
+    {
+     "ParameterId": 1291,
+     "ParameterText": "Supplier Device Package",
+     "ParameterType": "String",
+     "ValueId": "295058",
+     "ValueText": "8-TSSOP"
+    },
+    {
+     "ParameterId": 69,
+     "ParameterText": "Mounting Type",
+     "ParameterType": "String",
+     "ValueId": "409393",
+     "ValueText": "Surface Mount"
+    }
+   ],
+   "BaseProductNumber": {
+    "Id": 6589,
+    "Name": "NE555"
+   },
+   "Category": {
+    "CategoryId": 32,
+    "ParentId": 0,
+    "Name": "Integrated Circuits (ICs)",
+    "ProductCount": 0,
+    "NewProductCount": 0,
+    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+    "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+    "ChildCategories": [
+     {
+      "CategoryId": 2006,
+      "ParentId": 32,
+      "Name": "Clock/Timing",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+      "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+      "ChildCategories": [
+       {
+        "CategoryId": 689,
+        "ParentId": 2006,
+        "Name": "Programmable Timers and Oscillators",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Devices that can be set to provide timing pulses at a specified frequency.",
+        "ChildCategories": []
+       }
+      ]
+     }
+    ]
+   },
+   "ManufacturerLeadWeeks": "12",
+   "ManufacturerPublicQuantity": 0,
+   "Series": {
+    "Id": 818,
+    "Name": "-"
+   },
+   "Classifications": {
+    "ReachStatus": "REACH Unaffected",
+    "RohsStatus": "ROHS3 Compliant",
+    "MoistureSensitivityLevel": "1  (Unlimited)",
+    "ExportControlClassNumber": "EAR99",
+    "HtsusCode": "8542.39.0070"
+   },
+   "OtherNames": [
+    "296-29904-2",
+    "-NE555PWR-NDR",
+    "296-29904-1",
+    "-NE555PWRE4",
+    "-NE555PWRG4",
+    "2156-NE555PWR",
+    "-296-29904-1",
+    "TEXTISNE555PWR",
+    "NE555PWR-ND",
+    "-NE555PWRG4-NDR",
+    "-NE555PWRE4-NDR",
+    "296-29904-6",
+    "-296-29904-1-ND"
+   ]
+  },
+  {
+   "Description": {
+    "ProductDescription": "IC OSC SNGL TIMER 100KHZ 8-SOIC",
+    "DetailedDescription": "555 Type, Timer/Oscillator (Single) IC 100kHz 8-SO"
+   },
+   "Manufacturer": {
+    "Id": 296,
+    "Name": "Texas Instruments"
+   },
+   "ManufacturerProductNumber": "NE555PSR",
+   "UnitPrice": 0.86,
+   "ProductUrl": "https://www.digikey.it/en/products/detail/texas-instruments/NE555PSR/372493",
+   "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/na555.pdf?ts=1782113050147&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNA555",
+   "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4040063%7EPS%7E8.jpg",
+   "ProductVariations": [
+    {
+     "DigiKeyProductNumber": "296-6502-2-ND",
+     "PackageType": {
+      "Id": 1,
+      "Name": "Tape & Reel (TR)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 2000,
+       "UnitPrice": 0.41107,
+       "TotalPrice": 822.14
+      },
+      {
+       "BreakQuantity": 4000,
+       "UnitPrice": 0.4003,
+       "TotalPrice": 1601.2
+      },
+      {
+       "BreakQuantity": 6000,
+       "UnitPrice": 0.39491,
+       "TotalPrice": 2369.46
+      },
+      {
+       "BreakQuantity": 10000,
+       "UnitPrice": 0.38893,
+       "TotalPrice": 3889.3
+      },
+      {
+       "BreakQuantity": 14000,
+       "UnitPrice": 0.38543,
+       "TotalPrice": 5396.02
+      },
+      {
+       "BreakQuantity": 20000,
+       "UnitPrice": 0.38208,
+       "TotalPrice": 7641.6
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 2000,
+     "MaxQuantityForDistribution": 999999999,
+     "MinimumOrderQuantity": 2000,
+     "StandardPackage": 2000,
+     "DigiReelFee": 0.0
+    },
+    {
+     "DigiKeyProductNumber": "296-6502-1-ND",
+     "PackageType": {
+      "Id": 2,
+      "Name": "Cut Tape (CT)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.86,
+       "TotalPrice": 0.86
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.62,
+       "TotalPrice": 6.2
+      },
+      {
+       "BreakQuantity": 25,
+       "UnitPrice": 0.5584,
+       "TotalPrice": 13.96
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.4914,
+       "TotalPrice": 49.14
+      },
+      {
+       "BreakQuantity": 250,
+       "UnitPrice": 0.45936,
+       "TotalPrice": 114.84
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.44006,
+       "TotalPrice": 220.03
+      },
+      {
+       "BreakQuantity": 1000,
+       "UnitPrice": 0.42416,
+       "TotalPrice": 424.16
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 2112,
+     "MaxQuantityForDistribution": 999999999,
+     "MinimumOrderQuantity": 1,
+     "StandardPackage": 1,
+     "DigiReelFee": 0.0
+    },
+    {
+     "DigiKeyProductNumber": "296-6502-6-ND",
+     "PackageType": {
+      "Id": 243,
+      "Name": "Digi-Reel®"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.86,
+       "TotalPrice": 0.86
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.62,
+       "TotalPrice": 6.2
+      },
+      {
+       "BreakQuantity": 25,
+       "UnitPrice": 0.5584,
+       "TotalPrice": 13.96
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.4914,
+       "TotalPrice": 49.14
+      },
+      {
+       "BreakQuantity": 250,
+       "UnitPrice": 0.45936,
+       "TotalPrice": 114.84
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.44006,
+       "TotalPrice": 220.03
+      },
+      {
+       "BreakQuantity": 1000,
+       "UnitPrice": 0.42416,
+       "TotalPrice": 424.16
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 2112,
+     "MaxQuantityForDistribution": 999999999,
+     "MinimumOrderQuantity": 1,
+     "StandardPackage": 1,
+     "DigiReelFee": 5.5
+    }
+   ],
+   "QuantityAvailable": 2112,
+   "ProductStatus": {
+    "Id": 0,
+    "Status": "Active"
+   },
+   "BackOrderNotAllowed": false,
+   "NormallyStocking": true,
+   "Discontinued": false,
+   "EndOfLife": false,
+   "Ncnr": false,
+   "PrimaryVideoUrl": "",
+   "Parameters": [
+    {
+     "ParameterId": 183,
+     "ParameterText": "Type",
+     "ParameterType": "String",
+     "ValueId": "243489",
+     "ValueText": "555 Type, Timer/Oscillator (Single)"
+    },
+    {
+     "ParameterId": 435,
+     "ParameterText": "Count",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 139,
+     "ParameterText": "Frequency",
+     "ParameterType": "String",
+     "ValueId": "68724",
+     "ValueText": "100kHz"
+    },
+    {
+     "ParameterId": 276,
+     "ParameterText": "Voltage - Supply",
+     "ParameterType": "String",
+     "ValueId": "208636",
+     "ValueText": "4.5V ~ 16V"
+    },
+    {
+     "ParameterId": 2095,
+     "ParameterText": "Current - Supply",
+     "ParameterType": "UnitOfMeasure",
+     "ValueId": "10 mA",
+     "ValueText": "10 mA"
+    },
+    {
+     "ParameterId": 252,
+     "ParameterText": "Operating Temperature",
+     "ParameterType": "String",
+     "ValueId": "38976",
+     "ValueText": "0°C ~ 70°C"
+    },
+    {
+     "ParameterId": 16,
+     "ParameterText": "Package / Case",
+     "ParameterType": "String",
+     "ValueId": "294934",
+     "ValueText": "8-SOIC (0.209\", 5.30mm Width)"
+    },
+    {
+     "ParameterId": 1291,
+     "ParameterText": "Supplier Device Package",
+     "ParameterType": "String",
+     "ValueId": "294918",
+     "ValueText": "8-SO"
+    },
+    {
+     "ParameterId": 69,
+     "ParameterText": "Mounting Type",
+     "ParameterType": "String",
+     "ValueId": "409393",
+     "ValueText": "Surface Mount"
+    }
+   ],
+   "BaseProductNumber": {
+    "Id": 6589,
+    "Name": "NE555"
+   },
+   "Category": {
+    "CategoryId": 32,
+    "ParentId": 0,
+    "Name": "Integrated Circuits (ICs)",
+    "ProductCount": 0,
+    "NewProductCount": 0,
+    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+    "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+    "ChildCategories": [
+     {
+      "CategoryId": 2006,
+      "ParentId": 32,
+      "Name": "Clock/Timing",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+      "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+      "ChildCategories": [
+       {
+        "CategoryId": 689,
+        "ParentId": 2006,
+        "Name": "Programmable Timers and Oscillators",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Devices that can be set to provide timing pulses at a specified frequency.",
+        "ChildCategories": []
+       }
+      ]
+     }
+    ]
+   },
+   "ManufacturerLeadWeeks": "20",
+   "ManufacturerPublicQuantity": 0,
+   "Series": {
+    "Id": 818,
+    "Name": "-"
+   },
+   "Classifications": {
+    "ReachStatus": "REACH Unaffected",
+    "RohsStatus": "ROHS3 Compliant",
+    "MoistureSensitivityLevel": "1  (Unlimited)",
+    "ExportControlClassNumber": "EAR99",
+    "HtsusCode": "8542.39.0070"
+   },
+   "OtherNames": [
+    "-NE555PSRE4",
+    "-NE555PSRE4-NDR",
+    "-NE555PSRG4",
+    "2156-NE555PSR",
+    "296-6502-2-NDR",
+    "296-6502-1",
+    "-NE555PSRG4-NDR",
+    "-NE555PSR-NDR",
+    "296-6502-2",
+    "-296-6502-1",
+    "-296-6502-1-ND",
+    "TEXTISNE555PSR",
+    "296-6502-6"
+   ]
+  }
+ ],
+ "ProductsCount": 12,
+ "ExactMatches": [
+  {
+   "Description": {
+    "ProductDescription": "IC OSC SINGLE TIMER 100KHZ 8-DIP",
+    "DetailedDescription": "555 Type, Timer/Oscillator (Single) IC 100kHz 8-PDIP"
+   },
+   "Manufacturer": {
+    "Id": 296,
+    "Name": "Texas Instruments"
+   },
+   "ManufacturerProductNumber": "NE555P",
+   "UnitPrice": 0.52,
+   "ProductUrl": "https://www.digikey.it/en/products/detail/texas-instruments/NE555P/277057",
+   "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/na555.pdf?ts=1779184670697&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNA555",
+   "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6222/296%7E4040082%7EP%7E8.jpg",
+   "ProductVariations": [
+    {
+     "DigiKeyProductNumber": "296-NE555P-ND",
+     "PackageType": {
+      "Id": 6,
+      "Name": "Tube"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.52,
+       "TotalPrice": 0.52
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.367,
+       "TotalPrice": 3.67
+      },
+      {
+       "BreakQuantity": 50,
+       "UnitPrice": 0.305,
+       "TotalPrice": 15.25
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.2858,
+       "TotalPrice": 28.58
+      },
+      {
+       "BreakQuantity": 250,
+       "UnitPrice": 0.2656,
+       "TotalPrice": 66.4
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.2534,
+       "TotalPrice": 126.7
+      },
+      {
+       "BreakQuantity": 1000,
+       "UnitPrice": 0.24337,
+       "TotalPrice": 243.37
+      },
+      {
+       "BreakQuantity": 2500,
+       "UnitPrice": 0.2365,
+       "TotalPrice": 591.25
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 296,
+      "Name": "Texas Instruments"
+     },
+     "QuantityAvailableforPackageType": 49072,
+     "MinimumOrderQuantity": 1,
+     "DigiReelFee": 0.0
+    }
+   ],
+   "QuantityAvailable": 49072,
+   "ProductStatus": {
+    "Id": 0,
+    "Status": "Active"
+   },
+   "BackOrderNotAllowed": false,
+   "NormallyStocking": true,
+   "Discontinued": false,
+   "EndOfLife": false,
+   "Ncnr": false,
+   "PrimaryVideoUrl": "",
+   "Parameters": [
+    {
+     "ParameterId": 183,
+     "ParameterText": "Type",
+     "ParameterType": "String",
+     "ValueId": "243489",
+     "ValueText": "555 Type, Timer/Oscillator (Single)"
+    },
+    {
+     "ParameterId": 435,
+     "ParameterText": "Count",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 139,
+     "ParameterText": "Frequency",
+     "ParameterType": "String",
+     "ValueId": "68724",
+     "ValueText": "100kHz"
+    },
+    {
+     "ParameterId": 276,
+     "ParameterText": "Voltage - Supply",
+     "ParameterType": "String",
+     "ValueId": "208636",
+     "ValueText": "4.5V ~ 16V"
+    },
+    {
+     "ParameterId": 2095,
+     "ParameterText": "Current - Supply",
+     "ParameterType": "UnitOfMeasure",
+     "ValueId": "10 mA",
+     "ValueText": "10 mA"
+    },
+    {
+     "ParameterId": 252,
+     "ParameterText": "Operating Temperature",
+     "ParameterType": "String",
+     "ValueId": "38976",
+     "ValueText": "0°C ~ 70°C"
+    },
+    {
+     "ParameterId": 16,
+     "ParameterText": "Package / Case",
+     "ParameterType": "String",
+     "ValueId": "294032",
+     "ValueText": "8-DIP (0.300\", 7.62mm)"
+    },
+    {
+     "ParameterId": 1291,
+     "ParameterText": "Supplier Device Package",
+     "ParameterType": "String",
+     "ValueId": "294755",
+     "ValueText": "8-PDIP"
+    },
+    {
+     "ParameterId": 69,
+     "ParameterText": "Mounting Type",
+     "ParameterType": "String",
+     "ValueId": "411897",
+     "ValueText": "Through Hole"
+    }
+   ],
+   "BaseProductNumber": {
+    "Id": 6589,
+    "Name": "NE555"
+   },
+   "Category": {
+    "CategoryId": 32,
+    "ParentId": 0,
+    "Name": "Integrated Circuits (ICs)",
+    "ProductCount": 0,
+    "NewProductCount": 0,
+    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+    "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+    "ChildCategories": [
+     {
+      "CategoryId": 2006,
+      "ParentId": 32,
+      "Name": "Clock/Timing",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/966/073/296_8-SOIC_tmb.jpg",
+      "SeoDescription": "Clock/Timing products are used to provide timing for data transmission. There are specified categories including application-specific, buffers, drivers, generators, PLLs, frequency synthesizers, delay lines, IC batteries, programmable timers and oscillators, and real-time clocks.",
+      "ChildCategories": [
+       {
+        "CategoryId": 689,
+        "ParentId": 2006,
+        "Name": "Programmable Timers and Oscillators",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+        "SeoDescription": "Devices that can be set to provide timing pulses at a specified frequency.",
+        "ChildCategories": []
+       }
+      ]
+     }
+    ]
+   },
+   "ManufacturerLeadWeeks": "12",
+   "ManufacturerPublicQuantity": 0,
+   "Series": {
+    "Id": 818,
+    "Name": "-"
+   },
+   "Classifications": {
+    "ReachStatus": "REACH Unaffected",
+    "RohsStatus": "ROHS3 Compliant",
+    "MoistureSensitivityLevel": "Not Applicable",
+    "ExportControlClassNumber": "EAR99",
+    "HtsusCode": "8542.39.0070"
+   },
+   "OtherNames": [
+    "NE555PG4",
+    "2156-NE555P",
+    "296-49463-1-ND",
+    "-296-1411-5",
+    "-NE555PE4",
+    "296-41585-5-ND",
+    "296-49463-6INACTIVE",
+    "296-49463-1INACTIVE",
+    "-296-1411-5-ND",
+    "296-41585-5",
+    "-NE555PE4-NDR",
+    "296-49463-6",
+    "-NE555P-NDR",
+    "TEXTISNE555P",
+    "296-1411-5",
+    "296-1411",
+    "296-49463-6-ND",
+    "296-49463-1",
+    "NE555PE4-ND",
+    "296-1411-5-ND",
+    "296-NE555P",
+    "NE555PE4"
+   ]
+  },
+  {
+   "Description": {
+    "ProductDescription": "TIMERS 3MA 4.5V~16V DIP-8",
+    "DetailedDescription": "Clamp Ipp Tvs Diode"
+   },
+   "Manufacturer": {
+    "Id": 6557,
+    "Name": "GOODWORK"
+   },
+   "ManufacturerProductNumber": "NE555P",
+   "UnitPrice": 0.0622,
+   "ProductUrl": "https://www.digikey.it/en/products/detail/goodwork/NE555P/30388256",
+   "DatasheetUrl": "https://www.goodworksemi.com/wp-content/uploads/2026/09/NE555P-GK-DIP-8.pdf",
+   "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/9040/MFG_6557_DIP-8.jpg",
+   "ProductVariations": [
+    {
+     "DigiKeyProductNumber": "6557-NE555PTR-ND",
+     "PackageType": {
+      "Id": 1,
+      "Name": "Tape & Reel (TR)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 50,
+       "UnitPrice": 0.0622,
+       "TotalPrice": 3.11
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": true,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 6557,
+      "Name": "GOODWORK"
+     },
+     "QuantityAvailableforPackageType": 10000,
+     "MaxQuantityForDistribution": 999999999,
+     "MinimumOrderQuantity": 50,
+     "StandardPackage": 50,
+     "DigiReelFee": 0.0
+    }
+   ],
+   "QuantityAvailable": 10000,
+   "ProductStatus": {
+    "Id": 0,
+    "Status": "Active"
+   },
+   "BackOrderNotAllowed": true,
+   "NormallyStocking": true,
+   "Discontinued": false,
+   "EndOfLife": false,
+   "Ncnr": false,
+   "PrimaryVideoUrl": "",
+   "Parameters": [],
+   "BaseProductNumber": {},
+   "Category": {
+    "CategoryId": 9,
+    "ParentId": 0,
+    "Name": "Circuit Protection",
+    "ProductCount": 0,
+    "NewProductCount": 0,
+    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+    "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+    "ChildCategories": [
+     {
+      "CategoryId": 2040,
+      "ParentId": 9,
+      "Name": "Transient Voltage Suppressors (TVS)",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/256/835/DO-214AA_SMB_tmb%2864x64%29.jpg",
+      "SeoDescription": "TVS, or Transient Voltage Suppressors are devices designed to limit or prevent temporary surges or spikes within a specific voltage level.",
+      "ChildCategories": [
+       {
+        "CategoryId": 144,
+        "ParentId": 2040,
+        "Name": "TVS Diodes",
+        "ProductCount": 0,
+        "NewProductCount": 0,
+        "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/332/776/112%3BDO214AA%28SMBJ%29%3B%3B2_tmb%2864x64%29.jpg",
+        "SeoDescription": "TVS Diodes are a semiconductor device designed to limit or stop surges in a specific voltage level. The items in this family are designed using diodes (a component that conducts in just one direction). TVS is an acronym for Transient Voltage Suppression (Suppressor). The types are steering (rail to rail) or Zener with the characteristics of unidirectional channels, bidirectional channels, voltage – reverse standoff, voltage – breakdown, voltage – clamping, current – peak pulse, power – peak pulse, and power line protection.",
+        "ChildCategories": []
+       }
+      ]
+     }
+    ]
+   },
+   "ManufacturerLeadWeeks": "0",
+   "ManufacturerPublicQuantity": 0,
+   "Series": {
+    "Id": 0,
+    "Name": "*"
+   },
+   "Classifications": {
+    "ReachStatus": "REACH Unknown",
+    "RohsStatus": "Unknown",
+    "MoistureSensitivityLevel": "",
+    "ExportControlClassNumber": "",
+    "HtsusCode": ""
+   },
+   "OtherNames": [
+    "6557-NE555PTR"
+   ]
+  }
+ ],
+ "FilterOptions": {
+  "Manufacturers": [
+   {
+    "Id": 6557,
+    "Value": "GOODWORK",
+    "ProductCount": 1
+   },
+   {
+    "Id": 296,
+    "Value": "Texas Instruments",
+    "ProductCount": 11
+   }
+  ]
+ },
+ "SearchLocaleUsed": {
+  "Site": "IT",
+  "Language": "en",
+  "Currency": "EUR"
+ },
+ "AppliedParametricFiltersDto": []
+}

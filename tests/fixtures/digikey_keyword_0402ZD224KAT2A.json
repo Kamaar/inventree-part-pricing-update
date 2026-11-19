@@ -1,0 +1,333 @@
+{
+ "Products": [
+  {
+   "Description": {
+    "ProductDescription": "CAP CER 0.22UF 10V X5R 0402",
+    "DetailedDescription": "0.22 \u00b5F \u00b110% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+   },
+   "Manufacturer": {
+    "Id": 478,
+    "Name": "KYOCERA AVX"
+   },
+   "ManufacturerProductNumber": "KGM05AR51A224KH",
+   "UnitPrice": 0.43,
+   "ProductUrl": "https://www.digikey.it/en/products/detail/kyocera-avx/KGM05AR51A224KH/1597966",
+   "DatasheetUrl": "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf",
+   "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4848/478_0402-%281005-Metric%29-0%2C56mm.jpg",
+   "ProductVariations": [
+    {
+     "DigiKeyProductNumber": "478-KGM05AR51A224KHTR-ND",
+     "PackageType": {
+      "Id": 1,
+      "Name": "Tape & Reel (TR)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 10000,
+       "UnitPrice": 0.09361,
+       "TotalPrice": 936.1
+      },
+      {
+       "BreakQuantity": 30000,
+       "UnitPrice": 0.08696,
+       "TotalPrice": 2608.8
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 478,
+      "Name": "KYOCERA AVX"
+     },
+     "QuantityAvailableforPackageType": 620000,
+     "MaxQuantityForDistribution": 100000,
+     "MinimumOrderQuantity": 10000,
+     "StandardPackage": 10000,
+     "DigiReelFee": 0.0
+    },
+    {
+     "DigiKeyProductNumber": "478-KGM05AR51A224KHCT-ND",
+     "PackageType": {
+      "Id": 2,
+      "Name": "Cut Tape (CT)"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.43,
+       "TotalPrice": 0.43
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.259,
+       "TotalPrice": 2.59
+      },
+      {
+       "BreakQuantity": 50,
+       "UnitPrice": 0.1906,
+       "TotalPrice": 9.53
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.1696,
+       "TotalPrice": 16.96
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.13426,
+       "TotalPrice": 67.13
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 478,
+      "Name": "KYOCERA AVX"
+     },
+     "QuantityAvailableforPackageType": 622077,
+     "MinimumOrderQuantity": 1,
+     "DigiReelFee": 0.0
+    },
+    {
+     "DigiKeyProductNumber": "478-KGM05AR51A224KHDKR-ND",
+     "PackageType": {
+      "Id": 243,
+      "Name": "Digi-Reel\u00ae"
+     },
+     "StandardPricing": [
+      {
+       "BreakQuantity": 1,
+       "UnitPrice": 0.43,
+       "TotalPrice": 0.43
+      },
+      {
+       "BreakQuantity": 10,
+       "UnitPrice": 0.259,
+       "TotalPrice": 2.59
+      },
+      {
+       "BreakQuantity": 50,
+       "UnitPrice": 0.1906,
+       "TotalPrice": 9.53
+      },
+      {
+       "BreakQuantity": 100,
+       "UnitPrice": 0.1696,
+       "TotalPrice": 16.96
+      },
+      {
+       "BreakQuantity": 500,
+       "UnitPrice": 0.13426,
+       "TotalPrice": 67.13
+      }
+     ],
+     "MyPricing": [],
+     "MarketPlace": false,
+     "TariffActive": false,
+     "Supplier": {
+      "Id": 478,
+      "Name": "KYOCERA AVX"
+     },
+     "QuantityAvailableforPackageType": 622077,
+     "MaxQuantityForDistribution": 100000,
+     "MinimumOrderQuantity": 1,
+     "StandardPackage": 1,
+     "DigiReelFee": 5.5
+    }
+   ],
+   "QuantityAvailable": 622077,
+   "ProductStatus": {
+    "Id": 0,
+    "Status": "Active"
+   },
+   "BackOrderNotAllowed": false,
+   "NormallyStocking": true,
+   "Discontinued": false,
+   "EndOfLife": false,
+   "Ncnr": false,
+   "PrimaryVideoUrl": "",
+   "Parameters": [
+    {
+     "ParameterId": 2049,
+     "ParameterText": "Capacitance",
+     "ParameterType": "UnitOfMeasure",
+     "ValueId": "0.22 \u00b5F",
+     "ValueText": "0.22 \u00b5F"
+    },
+    {
+     "ParameterId": 3,
+     "ParameterText": "Tolerance",
+     "ParameterType": "String",
+     "ValueId": "1340",
+     "ValueText": "\u00b110%"
+    },
+    {
+     "ParameterId": 14,
+     "ParameterText": "Voltage - Rated",
+     "ParameterType": "String",
+     "ValueId": "74515",
+     "ValueText": "10V"
+    },
+    {
+     "ParameterId": 17,
+     "ParameterText": "Temperature Coefficient",
+     "ParameterType": "String",
+     "ValueId": "422407",
+     "ValueText": "X5R"
+    },
+    {
+     "ParameterId": 252,
+     "ParameterText": "Operating Temperature",
+     "ParameterType": "String",
+     "ValueId": "243000",
+     "ValueText": "-55\u00b0C ~ 85\u00b0C"
+    },
+    {
+     "ParameterId": 5,
+     "ParameterText": "Features",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 707,
+     "ParameterText": "Ratings",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 405,
+     "ParameterText": "Applications",
+     "ParameterType": "String",
+     "ValueId": "350483",
+     "ValueText": "General Purpose"
+    },
+    {
+     "ParameterId": 1531,
+     "ParameterText": "Failure Rate",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 69,
+     "ParameterText": "Mounting Type",
+     "ParameterType": "String",
+     "ValueId": "409416",
+     "ValueText": "Surface Mount, MLCC"
+    },
+    {
+     "ParameterId": 16,
+     "ParameterText": "Package / Case",
+     "ParameterType": "String",
+     "ValueId": "39158",
+     "ValueText": "0402 (1005 Metric)"
+    },
+    {
+     "ParameterId": 46,
+     "ParameterText": "Size / Dimension",
+     "ParameterType": "String",
+     "ValueId": "6310",
+     "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+    },
+    {
+     "ParameterId": 1500,
+     "ParameterText": "Height - Seated (Max)",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 1501,
+     "ParameterText": "Thickness (Max)",
+     "ParameterType": "String",
+     "ValueId": "5314",
+     "ValueText": "0.022\" (0.55mm)"
+    },
+    {
+     "ParameterId": 508,
+     "ParameterText": "Lead Spacing",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    },
+    {
+     "ParameterId": 4,
+     "ParameterText": "Lead Style",
+     "ParameterType": "String",
+     "ValueId": "1",
+     "ValueText": "-"
+    }
+   ],
+   "BaseProductNumber": {},
+   "Category": {
+    "CategoryId": 3,
+    "ParentId": 0,
+    "Name": "Capacitors",
+    "ProductCount": 0,
+    "NewProductCount": 0,
+    "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+    "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+    "ChildCategories": [
+     {
+      "CategoryId": 60,
+      "ParentId": 3,
+      "Name": "Ceramic Capacitors",
+      "ProductCount": 0,
+      "NewProductCount": 0,
+      "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+      "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+      "ChildCategories": []
+     }
+    ]
+   },
+   "ManufacturerLeadWeeks": "18",
+   "ManufacturerPublicQuantity": 0,
+   "Series": {
+    "Id": 119774,
+    "Name": "KGM - X5R"
+   },
+   "Classifications": {
+    "ReachStatus": "REACH Unaffected",
+    "RohsStatus": "ROHS3 Compliant",
+    "MoistureSensitivityLevel": "1  (Unlimited)",
+    "ExportControlClassNumber": "EAR99",
+    "HtsusCode": "8532.24.0020"
+   },
+   "OtherNames": [
+    "478-KGM05AR51A224KHCT",
+    "478-6020-6",
+    "0402ZD224KAT2A",
+    "0402ZD224KAT2A-ND",
+    "478-KGM05AR51A224KHTR",
+    "0402ZD224KAT2A/10K",
+    "478-6020-6-ND",
+    "478-KGM05AR51A224KHDKR",
+    "478-6020-1",
+    "478-6020-2",
+    "478-6020-2-ND",
+    "478-6020-1-ND"
+   ]
+  }
+ ],
+ "ProductsCount": 1,
+ "ExactMatches": [],
+ "FilterOptions": {
+  "Manufacturers": [
+   {
+    "Id": 478,
+    "Value": "KYOCERA AVX",
+    "ProductCount": 1
+   }
+  ]
+ },
+ "SearchLocaleUsed": {
+  "Site": "IT",
+  "Language": "en",
+  "Currency": "EUR"
+ },
+ "AppliedParametricFiltersDto": []
+}

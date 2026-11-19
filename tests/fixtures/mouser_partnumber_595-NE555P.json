@@ -1,0 +1,145 @@
+{
+ "Errors": [],
+ "SearchResults": {
+  "NumberOfResult": 1,
+  "Parts": [
+   {
+    "Availability": "67822 In Stock",
+    "DataSheetUrl": "",
+    "Description": "Timers & Support Products Precision",
+    "FactoryStock": "0",
+    "ImagePath": "https://www.mouser.com/images/texasinstruments/images/ITP_TI_PDIP-8_P_t.jpg",
+    "Category": "Timers & Support Products",
+    "LeadTime": "182 Days",
+    "LifecycleStatus": null,
+    "Manufacturer": "Texas Instruments",
+    "ManufacturerPartNumber": "NE555P",
+    "Min": "1",
+    "Mult": "1",
+    "MouserPartNumber": "595-NE555P",
+    "ProductAttributes": [
+     {
+      "AttributeName": "Packaging",
+      "AttributeValue": "Tube"
+     },
+     {
+      "AttributeName": "Standard Pack Qty",
+      "AttributeValue": "50"
+     }
+    ],
+    "PriceBreaks": [
+     {
+      "Quantity": 1,
+      "Price": "0,507 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 10,
+      "Price": "0,353 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 50,
+      "Price": "0,295 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 100,
+      "Price": "0,273 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 250,
+      "Price": "0,254 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 500,
+      "Price": "0,242 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 1000,
+      "Price": "0,232 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 2500,
+      "Price": "0,224 €",
+      "Currency": "EUR"
+     },
+     {
+      "Quantity": 5000,
+      "Price": "0,22 €",
+      "Currency": "EUR"
+     }
+    ],
+    "AlternatePackagings": null,
+    "ProductDetailUrl": "https://www.mouser.it/en/ProductDetail/Texas-Instruments/NE555P?qs=rkhjVJ6%2F3EIf4CWgjIKuKQ%3D%3D",
+    "Reeling": false,
+    "ROHSStatus": "RoHS Compliant",
+    "SuggestedReplacement": "",
+    "MultiSimBlue": 0,
+    "UnitWeightKg": {
+     "UnitWeight": 0.0004404
+    },
+    "AvailabilityInStock": "67822",
+    "AvailabilityOnOrder": [
+     {
+      "Quantity": 5000,
+      "Date": "2027-01-28T00:00:00"
+     }
+    ],
+    "InfoMessages": [],
+    "SurchargeMessages": null,
+    "ProductCompliance": [
+     {
+      "ComplianceName": "TARIC",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CNHTS",
+      "ComplianceValue": "8542399000"
+     },
+     {
+      "ComplianceName": "CAHTS",
+      "ComplianceValue": "8542390000"
+     },
+     {
+      "ComplianceName": "USHTS",
+      "ComplianceValue": "8542390090"
+     },
+     {
+      "ComplianceName": "JPHTS",
+      "ComplianceValue": "8542390990"
+     },
+     {
+      "ComplianceName": "MXHTS",
+      "ComplianceValue": "8542399999"
+     },
+     {
+      "ComplianceName": "ECCN",
+      "ComplianceValue": "EAR99"
+     }
+    ],
+    "TradeCompliance": [
+     {
+      "ComplianceName": "Country of Origin",
+      "ComplianceValue": "Mexico",
+      "ComplianceDescription": "The country in which a product was manufactured, produced or substantially transformed."
+     },
+     {
+      "ComplianceName": "Assembly Country of Origin",
+      "ComplianceValue": "Mexico",
+      "ComplianceDescription": "The country in which the final product is physically assembled from its components."
+     },
+     {
+      "ComplianceName": "Country of Diffusion",
+      "ComplianceValue": "United States",
+      "ComplianceDescription": "The country in which the wafer used in a semiconductor was made."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "_IconPlus-ZFAxXkXm.js": {
+    "file": "assets/IconPlus-ZFAxXkXm.js",
+    "name": "IconPlus"
+  },
+  "_pricing-B8AZhAKf.js": {
+    "file": "assets/pricing-B8AZhAKf.js",
+    "name": "pricing"
+  },
+  "src/Discontinued.tsx": {
+    "file": "Discontinued-B7bK_Ytn.js",
+    "name": "Discontinued",
+    "src": "src/Discontinued.tsx",
+    "isEntry": true,
+    "imports": [
+      "_IconPlus-ZFAxXkXm.js",
+      "_pricing-B8AZhAKf.js"
+    ]
+  },
+  "src/Panel.tsx": {
+    "file": "Panel-FGUF7LKw.js",
+    "name": "Panel",
+    "src": "src/Panel.tsx",
+    "isEntry": true,
+    "imports": [
+      "_IconPlus-ZFAxXkXm.js",
+      "_pricing-B8AZhAKf.js"
+    ]
+  },
+  "src/Settings.tsx": {
+    "file": "Settings-CK8EpiqJ.js",
+    "name": "Settings",
+    "src": "src/Settings.tsx",
+    "isEntry": true,
+    "imports": [
+      "_pricing-B8AZhAKf.js"
+    ]
+  }
+}
