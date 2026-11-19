@@ -50,9 +50,12 @@ The plugin is on [PyPI](https://pypi.org/project/inventree-part-pricing-update/)
 
 With *Check plugins on startup* enabled, a restart installs the latest version. Otherwise run `invoke plugins`, as below.
 
-It can also be installed from this repository with a **version tag** (without a tag pip does not download new commits):
-`inventree-part-pricing-update @ git+https://github.com/Kamaar/inventree-part-pricing-update@v0.4.18`. With Docker, install in **both** the server and the worker container, then
-restart them: different versions in the two processes cause the *Plugin Registry Mismatch* error (INVE-E20).
+It can also be installed from this repository with a **version tag** of the
+[releases](https://github.com/Kamaar/inventree-part-pricing-update/releases) (without a tag pip does not download new
+commits): `inventree-part-pricing-update @ git+https://github.com/Kamaar/inventree-part-pricing-update@vX.Y.Z`.
+
+With Docker, install in **both** the server and the worker container, then restart them: different versions in the
+two processes cause the *Plugin Registry Mismatch* error (INVE-E20).
 
 ```bash
 docker compose exec inventree-server invoke plugins
