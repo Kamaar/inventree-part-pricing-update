@@ -26,6 +26,11 @@ classifiers = [
     "Framework :: InvenTree",
 ]
 
+[project.urls]
+Homepage = "https://github.com/Kamaar/inventree-part-pricing-update"
+Repository = "https://github.com/Kamaar/inventree-part-pricing-update"
+Issues = "https://github.com/Kamaar/inventree-part-pricing-update/issues"
+
 [project.entry-points."inventree_plugins"]
 PartPricingUpdate = "part_pricing_update.core:PartPricingUpdate"
 

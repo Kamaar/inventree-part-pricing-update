@@ -12,12 +12,12 @@ or import parts: it only takes care of the prices. Parts can be imported with th
 **Supplier Prices** panel on the part page: price history at the selected quantity (the dashed segment is a period
 without prices), current prices, change, price breaks, stock and status of each supplier.
 
-![Supplier Prices panel](docs/images/supplier-prices-panel.png)
+![Supplier Prices panel](https://raw.githubusercontent.com/Kamaar/inventree-part-pricing-update/main/docs/images/supplier-prices-panel.png)
 
 **Discontinued parts** page: the supplier parts reported as discontinued, with the other active sources and the
 alternatives suggested by the supplier.
 
-![Discontinued parts page](docs/images/discontinued-parts.png)
+![Discontinued parts page](https://raw.githubusercontent.com/Kamaar/inventree-part-pricing-update/main/docs/images/discontinued-parts.png)
 
 ## Features
 
@@ -43,22 +43,15 @@ alternatives suggested by the supplier.
 
 ## Installation
 
-The plugin is not on PyPI. Install it from this repository, always with a **version tag**: without a tag pip considers
-the plugin already installed from the same URL and does not download new commits (in Docker the worker container
-would keep the old version).
+The plugin is on [PyPI](https://pypi.org/project/inventree-part-pricing-update/):
 
-**From the InvenTree UI** (*Settings → Plugins → Install plugin*):
+- **from the InvenTree UI** (*Settings → Plugins → Install plugin*): *Package Name* `inventree-part-pricing-update`;
+- **or with `plugins.txt`** (InvenTree data folder): a line `inventree-part-pricing-update`.
 
-- *Package Name*: `inventree-part-pricing-update`
-- *Source URL*: `git+https://github.com/Kamaar/inventree-part-pricing-update@v0.4.17`
+With *Check plugins on startup* enabled, a restart installs the latest version. Otherwise run `invoke plugins`, as below.
 
-**With `plugins.txt`** (InvenTree data folder):
-
-```
-inventree-part-pricing-update @ git+https://github.com/Kamaar/inventree-part-pricing-update@v0.4.17
-```
-
-To update, change the tag and reinstall. With Docker, install in **both** the server and the worker container, then
+It can also be installed from this repository with a **version tag** (without a tag pip does not download new commits):
+`inventree-part-pricing-update @ git+https://github.com/Kamaar/inventree-part-pricing-update@v0.4.18`. With Docker, install in **both** the server and the worker container, then
 restart them: different versions in the two processes cause the *Plugin Registry Mismatch* error (INVE-E20).
 
 ```bash
@@ -70,10 +63,6 @@ docker compose restart inventree-server inventree-worker
 `invoke plugins` installs from `plugins.txt` and copies the frontend files (`collectplugins`). After an update, reload
 the browser page.
 
-**From a private package registry**: the package can also be published to your own PyPI registry (e.g. the GitLab
-package registry, see *Release* below). Then set `PIP_EXTRA_INDEX_URL` (and `PIP_TRUSTED_HOST` for HTTP) in the InvenTree
-`.env` file and put `inventree-part-pricing-update` without version in `plugins.txt`: with *Check plugins on startup*
-enabled, a restart installs the latest version.
 
 ### First start
 
@@ -251,8 +240,8 @@ its own tables and migrations, `AppMixin`).
 ### Release
 
 1. Update `PLUGIN_VERSION` / `PLUGIN_DATE` in `part_pricing_update/__init__.py` and `version` in `frontend/package.json`.
-2. Commit, tag `vX.Y.Z` and push. A CI job can publish the package to a PyPI registry
-   (`python -m build && twine upload`); `tools/check_version.py` checks that the tag matches `PLUGIN_VERSION`.
+2. Commit, tag `vX.Y.Z`, push and publish a GitHub release: the `publish.yml` workflow uploads the package to PyPI
+   (Trusted Publishing, no token). `tools/check_version.py` checks that a tag matches `PLUGIN_VERSION`.
 
 The frontend (React + Mantine, provided by InvenTree at runtime) is in `frontend/` and is built into
 `part_pricing_update/static/` with hashed file names. The built files are committed, so `pip install git+…` works
