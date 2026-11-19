@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "inventree-part-pricing-update"
-description = "Aggiorna automaticamente i prezzi dei SupplierPart da Mouser, DigiKey e Farnell e ne conserva lo storico"
+description = "InvenTree plugin: keeps the supplier part prices up to date from Mouser, DigiKey and Farnell, with price history"
 dynamic = ["version"]
 authors = [
     { name = "Simone Amadori", email = "simone@amadori.bs.it" },
