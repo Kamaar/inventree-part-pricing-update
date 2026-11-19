@@ -7,6 +7,18 @@ Unlike [inventree-supplier-panel](https://github.com/SergeoLacruz/inventree-supp
 or import parts: it only takes care of the prices. Parts can be imported with the companion plugin
 [inventree-supplier-part-import](https://github.com/Kamaar/inventree-supplier-part-import), which uses this plugin.
 
+## Screenshots
+
+**Supplier Prices** panel on the part page: price history at the selected quantity (the dashed segment is a period
+without prices), current prices, change, price breaks, stock and status of each supplier.
+
+![Supplier Prices panel](docs/images/supplier-prices-panel.png)
+
+**Discontinued parts** page: the supplier parts reported as discontinued, with the other active sources and the
+alternatives suggested by the supplier.
+
+![Discontinued parts page](docs/images/discontinued-parts.png)
+
 ## Features
 
 - Background updates (scheduled task every 15 minutes, in small batches, within the API limits).
