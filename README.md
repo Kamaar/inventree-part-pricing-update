@@ -46,25 +46,63 @@ alternatives suggested by the supplier.
 The plugin is on [PyPI](https://pypi.org/project/inventree-part-pricing-update/):
 
 - **from the InvenTree UI** (*Settings → Plugins → Install plugin*): *Package Name* `inventree-part-pricing-update`;
-- **or with `plugins.txt`** (InvenTree data folder): a line `inventree-part-pricing-update`.
+- **or with `plugins.txt`** (next to `config.yaml`, or the file set by `INVENTREE_PLUGIN_FILE`): a line
+  `inventree-part-pricing-update`.
 
-With *Check plugins on startup* enabled, a restart installs the latest version. Otherwise run `invoke plugins`, as below.
+The plugin adds database tables: after the installation the migrations must run (`invoke migrate`), also when it is
+installed from the UI. In Docker, with *Check plugins on startup* enabled, a restart installs the latest version.
 
 It can also be installed from this repository with a **version tag** of the
 [releases](https://github.com/Kamaar/inventree-part-pricing-update/releases) (without a tag pip does not download new
 commits): `inventree-part-pricing-update @ git+https://github.com/Kamaar/inventree-part-pricing-update@vX.Y.Z`.
 
-With Docker, install in **both** the server and the worker container, then restart them: different versions in the
-two processes cause the *Plugin Registry Mismatch* error (INVE-E20).
+`invoke plugins` installs from `plugins.txt` and copies the frontend files (`collectplugins`). Server and worker must
+always run the same version and be restarted after an install or update: different versions in the two processes
+cause the *Plugin Registry Mismatch* error (INVE-E20). After an update, reload the browser page.
+
+**Docker**: install in **both** the server and the worker container, then restart them.
 
 ```bash
 docker compose exec inventree-server invoke plugins
 docker compose exec inventree-worker invoke plugins
+docker compose exec inventree-server invoke migrate
 docker compose restart inventree-server inventree-worker
 ```
 
-`invoke plugins` installs from `plugins.txt` and copies the frontend files (`collectplugins`). After an update, reload
-the browser page.
+**Package installer** (Debian/Ubuntu `.deb`): server and worker share the same environment, `invoke` runs through the
+`inventree` command.
+
+```bash
+sudo inventree run invoke plugins
+sudo inventree run invoke migrate
+sudo inventree restart
+```
+
+Activate the plugins only after `invoke plugins`, then run `invoke migrate` **again** with the services stopped: the
+tables of a plugin are created only when it is active. If the migrations of an active plugin are missing, server and
+worker stop at startup with *INVE-W8: Database Migrations required* and systemd restarts them in a loop (the web page
+does not open, `inventree logs --tail` shows the error):
+
+```bash
+sudo systemctl stop inventree
+sudo inventree run invoke migrate
+sudo systemctl start inventree
+```
+
+**Bare metal from source**: as the `inventree` user, with the InvenTree virtual environment active, from the source
+folder and with the same configuration as the server (`config.yaml` or `INVENTREE_*` variables; otherwise `invoke`
+works on another database or `plugins.txt`).
+
+```bash
+sudo su inventree
+source /home/inventree/env/bin/activate
+cd /home/inventree/src
+invoke plugins
+invoke migrate
+```
+
+Then restart the web server (gunicorn) **and** the worker (`invoke worker`), for example `sudo supervisorctl restart all`
+with the supervisor setup of the InvenTree documentation.
 
 
 ### First start
@@ -76,15 +114,29 @@ In *Settings → Plugins* enable:
 - **Enable schedule integration** (automatic updates);
 - **Enable interface integration** (panel and pages).
 
-Then activate **Part Pricing Update**, restart server and worker and run the migrations (`invoke migrate`; the Docker
-image runs them at startup with `INVENTREE_AUTO_UPDATE=True`).
+Then activate **Part Pricing Update**, run the migrations (`invoke migrate`, as above; with
+`INVENTREE_AUTO_UPDATE=True` they run automatically) and restart server and worker.
 
-Check that server and worker have the same version:
+Check that server and worker have the same version (Docker; elsewhere *Settings → Plugins* shows the version loaded by
+the server):
 
 ```bash
 docker compose exec inventree-server pip show inventree-part-pricing-update | grep Version
 docker compose exec inventree-worker pip show inventree-part-pricing-update | grep Version
 ```
+
+### Check the installation
+
+1. Open the plugin settings: the **Suppliers** table shows a row for Mouser, DigiKey and Farnell. Enter the API keys
+   (see [Configuration](#configuration)): *Credentials* becomes *Configured*.
+2. On a new database *InvenTree supplier* is *Not found* and all counters are 0: there is no supplier company yet.
+   Create the companies **Mouser**, **DigiKey** and **Farnell** with *Is supplier* enabled, or select them in the
+   `*_SUPPLIER` settings: the column shows the company.
+3. Add a supplier part with the supplier code as SKU (e.g. `595-NE555P` for Mouser), by hand or with
+   [inventree-supplier-part-import](https://github.com/Kamaar/inventree-supplier-part-import): *Supplier parts* counts
+   it.
+4. Press **Update now** in the *Supplier Prices* panel of the part, or wait for the scheduled task (every 15 minutes):
+   *Requests today* increases and the price history is filled. The worker log shows the `update_prices` task.
 
 ## Configuration
 
