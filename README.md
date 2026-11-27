@@ -40,6 +40,17 @@ alternatives suggested by the supplier.
   reported as discontinued, with the stock of the part, the assemblies using it, the other active suppliers, the
   suggested code and the alternatives of the supplier. Filters by supplier, text, active parts and parts without other
   sources; CSV export.
+- **Barcode scan of a supplier code** (web and InvenTree app): the **P/N** barcode of a Mouser, DigiKey or Farnell
+  label (plain text, e.g. `637-SMZ24`) opens the supplier part with that SKU; inside a purchase order of that supplier
+  (*Scan to receive*) it finds the line to receive, and the quantity is asked (it is not in that barcode). Only an
+  exact SKU of one supplier part of the configured suppliers is matched: the other barcodes of the label (order
+  number, quantity…) are left to the other barcode plugins.
+- **Barcode scan of the customer part number**: when the IPN of the part is given to the supplier as customer part
+  number (printed on the label, e.g. `IPN-00042`), its barcode opens the part with that IPN; the label DataMatrix
+  carries it too (Mouser: field `P`), so the DataMatrix opens the part as well. Inside a purchase order the line of the
+  part's supplier part of the order supplier is received, with the quantity of the DataMatrix (`Q`).
+
+  Barcode support must be enabled in the InvenTree settings; nothing to configure in the plugin.
 
 ## Installation
 

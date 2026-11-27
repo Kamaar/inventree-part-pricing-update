@@ -158,3 +158,98 @@ def test_static_files_resolve(plugin):
     url = plugin.plugin_static_file('Panel.js:renderPricingPanel')
 
     assert url.startswith('/static/plugins/part-pricing-update/Panel-') and url.endswith(':renderPricingPanel')
+
+
+def test_barcode_scan_of_a_supplier_sku(suppliers, part):
+    """The 'P/N' barcode of a Mouser label ('637-SMZ24') opens the supplier part, from the app or the web."""
+    from company.models import SupplierPart
+    from django.contrib.auth.models import User
+
+    sp = SupplierPart.objects.create(part=part, supplier=suppliers['mouser'], SKU='637-SMZ24')
+    user = User.objects.create_superuser('it-barcode', 'it-barcode@example.com', 'it-barcode-password')
+    client = api_client(user)
+
+    response = client.post('/api/barcode/', {'barcode': '637-SMZ24'}, format='json')
+    assert response.status_code == 200, response.data
+    assert response.data['supplierpart']['pk'] == sp.pk
+
+    # Lower case (some scanners) and surrounding spaces
+    assert client.post('/api/barcode/', {'barcode': ' 637-smz24 '}, format='json').status_code == 200
+
+    # The other barcodes of the label match nothing
+    for data in ('367', '002', 'COMP', '20'):
+        assert client.post('/api/barcode/', {'barcode': data}, format='json').status_code == 400
+
+
+def test_barcode_receive_by_supplier_sku(suppliers, part):
+    """Scanned inside a Mouser purchase order: the line is found, the quantity is asked (not in the barcode)."""
+    from company.models import SupplierPart
+    from django.contrib.auth.models import User
+    from order.models import PurchaseOrder, PurchaseOrderLineItem
+
+    sp = SupplierPart.objects.create(part=part, supplier=suppliers['mouser'], SKU='637-SMZ24')
+    user = User.objects.create_superuser('it-receive', 'it-receive@example.com', 'it-receive-password')
+    order = PurchaseOrder.objects.create(supplier=suppliers['mouser'], reference='PO-IT-SKU-1')
+    line = PurchaseOrderLineItem.objects.create(order=order, part=sp, quantity=20)
+    order.place_order()
+
+    response = api_client(user).post(
+        '/api/barcode/po-receive/', {'barcode': '637-SMZ24', 'purchase_order': order.pk}, format='json'
+    )
+
+    assert response.status_code == 200, response.data
+    assert response.data['lineitem']['pk'] == line.pk
+    assert response.data['lineitem']['quantity'] == 20
+
+
+MOUSER_DATAMATRIX = '[)>06K36714K002PIPN-00042Q511K0937556264LCN1VDiotec'
+
+
+def test_barcode_scan_of_the_customer_part_number(suppliers, part):
+    """The customer part number (IPN), as linear barcode or in the 'P' of the Mouser DataMatrix, opens the part."""
+    from django.contrib.auth.models import User
+
+    part.IPN = 'IPN-00042'
+    part.save()
+    user = User.objects.create_superuser('it-ipn', 'it-ipn@example.com', 'it-ipn-password')
+    client = api_client(user)
+
+    for data in ('IPN-00042', 'ipn-00042', MOUSER_DATAMATRIX):
+        response = client.post('/api/barcode/', {'barcode': data}, format='json')
+        assert response.status_code == 200, (data, response.data)
+        assert response.data['part']['pk'] == part.pk
+
+    # Another customer part number: no match
+    other = MOUSER_DATAMATRIX.replace('IPN-00042', 'IPN-99999')
+    assert client.post('/api/barcode/', {'barcode': other}, format='json').status_code == 400
+
+
+def test_barcode_receive_by_customer_part_number(suppliers, part):
+    """Mouser DataMatrix scanned inside a Mouser order: the line of the part, with the quantity of the label."""
+    from company.models import SupplierPart
+    from django.contrib.auth.models import User
+    from order.models import PurchaseOrder, PurchaseOrderLineItem
+
+    part.IPN = 'IPN-00042'
+    part.save()
+    # The same part from two suppliers: the one of the order is received
+    SupplierPart.objects.create(part=part, supplier=suppliers['digikey'], SKU='SMZ24-ND')
+    sp = SupplierPart.objects.create(part=part, supplier=suppliers['mouser'], SKU='637-SMZ24')
+    user = User.objects.create_superuser('it-ipn-receive', 'it-ipn-receive@example.com', 'it-ipn-password')
+    order = PurchaseOrder.objects.create(supplier=suppliers['mouser'], reference='PO-IT-IPN-1')
+    line = PurchaseOrderLineItem.objects.create(order=order, part=sp, quantity=20)
+    order.place_order()
+    client = api_client(user)
+
+    response = client.post(
+        '/api/barcode/po-receive/', {'barcode': MOUSER_DATAMATRIX, 'purchase_order': order.pk}, format='json'
+    )
+
+    assert response.status_code == 200, response.data
+    assert response.data['lineitem']['pk'] == line.pk
+    assert response.data['lineitem']['quantity'] == 5
+
+    # Linear barcode of the customer part number: the line, the quantity is asked
+    response = client.post('/api/barcode/po-receive/', {'barcode': 'IPN-00042', 'purchase_order': order.pk}, format='json')
+    assert response.status_code == 200, response.data
+    assert response.data['lineitem']['pk'] == line.pk

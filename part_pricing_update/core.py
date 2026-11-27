@@ -3,7 +3,7 @@
 from django.utils.translation import gettext_lazy as _
 
 from plugin import InvenTreePlugin
-from plugin.mixins import AppMixin, ScheduleMixin, SettingsMixin, UrlsMixin, UserInterfaceMixin
+from plugin.mixins import AppMixin, ScheduleMixin, SettingsMixin, SupplierBarcodeMixin, UrlsMixin, UserInterfaceMixin
 
 from . import PLUGIN_DATE, PLUGIN_VERSION
 from .suppliers import FARNELL_STORES
@@ -21,7 +21,7 @@ def _supplier_setting(name: str) -> dict:
 
 
 class PartPricingUpdate(
-    AppMixin, ScheduleMixin, SettingsMixin, UrlsMixin, UserInterfaceMixin, InvenTreePlugin
+    AppMixin, ScheduleMixin, SettingsMixin, SupplierBarcodeMixin, UrlsMixin, UserInterfaceMixin, InvenTreePlugin
 ):
     """PartPricingUpdate - keep supplier prices up to date."""
 
@@ -184,6 +184,58 @@ class PartPricingUpdate(
             'default': 800,
         },
     }
+
+    # ---------------------------------------------------------------- barcode scans
+
+    def extract_barcode_fields(self, barcode_data: str) -> dict[str, str]:
+        """A scanned supplier SKU ('637-SMZ24') or customer part number (IPN), also in a label DataMatrix."""
+        from .barcode import match_scan
+
+        self._barcode_match = match = match_scan(self, barcode_data, getattr(self, '_receive_supplier', None))
+        fields = {}
+
+        if match is not None and match.supplier_part is not None:
+            fields[self.SUPPLIER_PART_NUMBER] = match.supplier_part.SKU
+
+        if match is not None and match.quantity:
+            fields[self.QUANTITY] = match.quantity
+
+        return fields
+
+    def _matched_supplier_part(self):
+        match = getattr(self, '_barcode_match', None)
+        return match.supplier_part if match is not None else None
+
+    def get_supplier(self, cache: bool = False):
+        """The supplier of the matched supplier part (Mouser, DigiKey or Farnell)."""
+        sp = self._matched_supplier_part()
+        return sp.supplier if sp is not None else None
+
+    def get_part(self):
+        """The part of a scanned customer part number (IPN)."""
+        match = getattr(self, '_barcode_match', None)
+        return match.part if match is not None else None
+
+    def get_supplier_part(self):
+        return self._matched_supplier_part()
+
+    def get_manufacturer_part(self):
+        sp = self._matched_supplier_part()
+        return sp.manufacturer_part if sp is not None else None
+
+    def get_purchase_order(self):
+        # The label says nothing reliable about the order: the order is the one being received (if any)
+        return None
+
+    def scan_receive_item(self, barcode_data: str, user, **kwargs):
+        """Inside a purchase order, a customer part number (IPN) selects the supplier part of the order supplier."""
+        order = kwargs.get('purchase_order')
+        self._receive_supplier = kwargs.get('supplier') or getattr(order, 'supplier', None)
+
+        try:
+            return super().scan_receive_item(barcode_data, user, **kwargs)
+        finally:
+            self._receive_supplier = None
 
     def scheduled_update(self, *args, **kwargs):
         """Scheduled task: update a batch of supplier parts."""
